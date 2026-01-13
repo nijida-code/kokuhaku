@@ -62,3 +62,7 @@ fastlane/screenshots/**/*.png
 fastlane/test_output
 
 .vscode/
+.swiftpm/
+
+# Could be needed in special cases, but not now and most likely never
+Package.resolved
