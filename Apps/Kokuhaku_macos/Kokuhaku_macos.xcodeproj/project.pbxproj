@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2DD69E602F1676F8004D1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DD69E4A2F1676F7004D1545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DD69E512F1676F7004D1545;
+			remoteInfo = Kokuhaku_macos;
+		};
+		2DD69E6A2F1676F8004D1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DD69E4A2F1676F7004D1545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DD69E512F1676F7004D1545;
+			remoteInfo = Kokuhaku_macos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DD69E522F1676F7004D1545 /* Kokuhaku_macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kokuhaku_macos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD69E5F2F1676F8004D1545 /* Kokuhaku_macosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kokuhaku_macosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD69E692F1676F8004D1545 /* Kokuhaku_macosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kokuhaku_macosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2DD69E542F1676F7004D1545 /* Kokuhaku_macos */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Kokuhaku_macos;
+			sourceTree = "<group>";
+		};
+		2DD69E622F1676F8004D1545 /* Kokuhaku_macosTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Kokuhaku_macosTests;
+			sourceTree = "<group>";
+		};
+		2DD69E6C2F1676F8004D1545 /* Kokuhaku_macosUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Kokuhaku_macosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DD69E4F2F1676F7004D1545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD69E5C2F1676F8004D1545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD69E662F1676F8004D1545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DD69E492F1676F7004D1545 = {
+			isa = PBXGroup;
+			children = (
+				2DD69E542F1676F7004D1545 /* Kokuhaku_macos */,
+				2DD69E622F1676F8004D1545 /* Kokuhaku_macosTests */,
+				2DD69E6C2F1676F8004D1545 /* Kokuhaku_macosUITests */,
+				2DD69E532F1676F7004D1545 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DD69E532F1676F7004D1545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DD69E522F1676F7004D1545 /* Kokuhaku_macos.app */,
+				2DD69E5F2F1676F8004D1545 /* Kokuhaku_macosTests.xctest */,
+				2DD69E692F1676F8004D1545 /* Kokuhaku_macosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DD69E512F1676F7004D1545 /* Kokuhaku_macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD69E732F1676F8004D1545 /* Build configuration list for PBXNativeTarget "Kokuhaku_macos" */;
+			buildPhases = (
+				2DD69E4E2F1676F7004D1545 /* Sources */,
+				2DD69E4F2F1676F7004D1545 /* Frameworks */,
+				2DD69E502F1676F7004D1545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2DD69E542F1676F7004D1545 /* Kokuhaku_macos */,
+			);
+			name = Kokuhaku_macos;
+			packageProductDependencies = (
+			);
+			productName = Kokuhaku_macos;
+			productReference = 2DD69E522F1676F7004D1545 /* Kokuhaku_macos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DD69E5E2F1676F8004D1545 /* Kokuhaku_macosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD69E762F1676F8004D1545 /* Build configuration list for PBXNativeTarget "Kokuhaku_macosTests" */;
+			buildPhases = (
+				2DD69E5B2F1676F8004D1545 /* Sources */,
+				2DD69E5C2F1676F8004D1545 /* Frameworks */,
+				2DD69E5D2F1676F8004D1545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DD69E612F1676F8004D1545 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2DD69E622F1676F8004D1545 /* Kokuhaku_macosTests */,
+			);
+			name = Kokuhaku_macosTests;
+			packageProductDependencies = (
+			);
+			productName = Kokuhaku_macosTests;
+			productReference = 2DD69E5F2F1676F8004D1545 /* Kokuhaku_macosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DD69E682F1676F8004D1545 /* Kokuhaku_macosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD69E792F1676F8004D1545 /* Build configuration list for PBXNativeTarget "Kokuhaku_macosUITests" */;
+			buildPhases = (
+				2DD69E652F1676F8004D1545 /* Sources */,
+				2DD69E662F1676F8004D1545 /* Frameworks */,
+				2DD69E672F1676F8004D1545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DD69E6B2F1676F8004D1545 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2DD69E6C2F1676F8004D1545 /* Kokuhaku_macosUITests */,
+			);
+			name = Kokuhaku_macosUITests;
+			packageProductDependencies = (
+			);
+			productName = Kokuhaku_macosUITests;
+			productReference = 2DD69E692F1676F8004D1545 /* Kokuhaku_macosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DD69E4A2F1676F7004D1545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					2DD69E512F1676F7004D1545 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					2DD69E5E2F1676F8004D1545 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 2DD69E512F1676F7004D1545;
+					};
+					2DD69E682F1676F8004D1545 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 2DD69E512F1676F7004D1545;
+					};
+				};
+			};
+			buildConfigurationList = 2DD69E4D2F1676F7004D1545 /* Build configuration list for PBXProject "Kokuhaku_macos" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DD69E492F1676F7004D1545;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2DD69E532F1676F7004D1545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DD69E512F1676F7004D1545 /* Kokuhaku_macos */,
+				2DD69E5E2F1676F8004D1545 /* Kokuhaku_macosTests */,
+				2DD69E682F1676F8004D1545 /* Kokuhaku_macosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DD69E502F1676F7004D1545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD69E5D2F1676F8004D1545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD69E672F1676F8004D1545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DD69E4E2F1676F7004D1545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD69E5B2F1676F8004D1545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD69E652F1676F8004D1545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DD69E612F1676F8004D1545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DD69E512F1676F7004D1545 /* Kokuhaku_macos */;
+			targetProxy = 2DD69E602F1676F8004D1545 /* PBXContainerItemProxy */;
+		};
+		2DD69E6B2F1676F8004D1545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DD69E512F1676F7004D1545 /* Kokuhaku_macos */;
+			targetProxy = 2DD69E6A2F1676F8004D1545 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DD69E712F1676F8004D1545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6MJCL4W8J6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DD69E722F1676F8004D1545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6MJCL4W8J6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2DD69E742F1676F8004D1545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MJCL4W8J6;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.nijida.kokuhaku.macos.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2DD69E752F1676F8004D1545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MJCL4W8J6;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.nijida.kokuhaku.macos.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2DD69E772F1676F8004D1545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MJCL4W8J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.Kokuhaku-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kokuhaku_macos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kokuhaku_macos";
+			};
+			name = Debug;
+		};
+		2DD69E782F1676F8004D1545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MJCL4W8J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.Kokuhaku-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kokuhaku_macos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kokuhaku_macos";
+			};
+			name = Release;
+		};
+		2DD69E7A2F1676F8004D1545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MJCL4W8J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.Kokuhaku-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Kokuhaku_macos;
+			};
+			name = Debug;
+		};
+		2DD69E7B2F1676F8004D1545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MJCL4W8J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.Kokuhaku-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Kokuhaku_macos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DD69E4D2F1676F7004D1545 /* Build configuration list for PBXProject "Kokuhaku_macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD69E712F1676F8004D1545 /* Debug */,
+				2DD69E722F1676F8004D1545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD69E732F1676F8004D1545 /* Build configuration list for PBXNativeTarget "Kokuhaku_macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD69E742F1676F8004D1545 /* Debug */,
+				2DD69E752F1676F8004D1545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD69E762F1676F8004D1545 /* Build configuration list for PBXNativeTarget "Kokuhaku_macosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD69E772F1676F8004D1545 /* Debug */,
+				2DD69E782F1676F8004D1545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD69E792F1676F8004D1545 /* Build configuration list for PBXNativeTarget "Kokuhaku_macosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD69E7A2F1676F8004D1545 /* Debug */,
+				2DD69E7B2F1676F8004D1545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DD69E4A2F1676F7004D1545 /* Project object */;
+}
