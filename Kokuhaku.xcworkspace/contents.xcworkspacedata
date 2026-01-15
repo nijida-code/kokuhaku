@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:README.md">
+   </FileRef>
+   <FileRef
+      location = "container:LICENSE">
+   </FileRef>
+   <Group
+      location = "group:Apps"
+      name = "Apps">
+      <FileRef
+         location = "group:kokuhaku_ios/kokuhaku_ios.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:kokuhaku_macos_cli/kokuhaku_macos_cli.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:kokuhaku_macos/kokuhaku_macos.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Shared"
+      name = "Shared">
+      <Group
+         location = "group:KokuhakuCore"
+         name = "KokuhakuCore">
+         <FileRef
+            location = "group:Package.swift">
+         </FileRef>
+         <Group
+            location = "group:Tests"
+            name = "Tests">
+         </Group>
+         <Group
+            location = "group:Sources"
+            name = "Sources">
+            <FileRef
+               location = "group:Flow.swift">
+            </FileRef>
+            <Group
+               location = "group:Mappers"
+               name = "Mappers">
+               <FileRef
+                  location = "group:FlowV1Mapper.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Parser.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MapperFactory.swift">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+</Workspace>
