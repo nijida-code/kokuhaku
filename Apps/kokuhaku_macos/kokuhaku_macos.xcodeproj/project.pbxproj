@@ -10,6 +10,39 @@
 		2D3BBE032F1A24FB0060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE022F1A24FB0060596E /* KokuhakuCore */; };
 		2D3BBE582F1A2C910060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE572F1A2C910060596E /* KokuhakuCore */; };
 		2D3BBE5A2F1A2C9C0060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE592F1A2C9C0060596E /* KokuhakuCore */; };
+		2D3BBEA92F1A3CAD0060596E /* KokuhakuCloudKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBEA82F1A3CAD0060596E /* KokuhakuCloudKit */; };
+		2D3BBEAB2F1A3CB50060596E /* KokuhakuCloudKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBEAA2F1A3CB50060596E /* KokuhakuCloudKit */; };
+		2D3BBEAD2F1A3CBC0060596E /* KokuhakuCloudKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBEAC2F1A3CBC0060596E /* KokuhakuCloudKit */; };
+		2D3BBEBF2F1A60D30060596E /* KokuhakuImportLocal in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBEBE2F1A60D30060596E /* KokuhakuImportLocal */; };
+		2D3BBEC12F1A60DA0060596E /* KokuhakuImportLocal in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBEC02F1A60DA0060596E /* KokuhakuImportLocal */; };
+		2D3BBEC32F1A60E00060596E /* KokuhakuImportLocal in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBEC22F1A60E00060596E /* KokuhakuImportLocal */; };
+		2D3BBED52F1A64D20060596E /* KokuhakuImportGit in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBED42F1A64D20060596E /* KokuhakuImportGit */; };
+		2D3BBED72F1A64D90060596E /* KokuhakuImportGit in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBED62F1A64D90060596E /* KokuhakuImportGit */; };
+		2D3BBED92F1A64DF0060596E /* KokuhakuImportGit in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBED82F1A64DF0060596E /* KokuhakuImportGit */; };
+		2D3BBEF22F1A671C0060596E /* KokuhakuImportGitHub in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBEF12F1A671C0060596E /* KokuhakuImportGitHub */; };
+		2D3BBEF42F1A67220060596E /* KokuhakuImportGitHub in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBEF32F1A67220060596E /* KokuhakuImportGitHub */; };
+		2D3BBEF62F1A67280060596E /* KokuhakuImportGitHub in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBEF52F1A67280060596E /* KokuhakuImportGitHub */; };
+		2D3BBF152F1A693D0060596E /* KokuhakuStorageLocal in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF142F1A693D0060596E /* KokuhakuStorageLocal */; };
+		2D3BBF172F1A69440060596E /* KokuhakuStorageLocal in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF162F1A69440060596E /* KokuhakuStorageLocal */; };
+		2D3BBF192F1A69490060596E /* KokuhakuStorageLocal in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF182F1A69490060596E /* KokuhakuStorageLocal */; };
+		2D3BBF322F1A6C390060596E /* KokuhakuFlowCatalog in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF312F1A6C390060596E /* KokuhakuFlowCatalog */; };
+		2D3BBF342F1A6C3F0060596E /* KokuhakuFlowCatalog in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF332F1A6C3F0060596E /* KokuhakuFlowCatalog */; };
+		2D3BBF362F1A6C430060596E /* KokuhakuFlowCatalog in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF352F1A6C430060596E /* KokuhakuFlowCatalog */; };
+		2D3BBF552F1A6E8D0060596E /* KokuhakuDeviceSync in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF542F1A6E8D0060596E /* KokuhakuDeviceSync */; };
+		2D3BBF572F1A6E930060596E /* KokuhakuDeviceSync in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF562F1A6E930060596E /* KokuhakuDeviceSync */; };
+		2D3BBF592F1A6E980060596E /* KokuhakuDeviceSync in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF582F1A6E980060596E /* KokuhakuDeviceSync */; };
+		2D3BBF782F1A71020060596E /* KokuhakuNotifications in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF772F1A71020060596E /* KokuhakuNotifications */; };
+		2D3BBF7A2F1A710B0060596E /* KokuhakuNotifications in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF792F1A710B0060596E /* KokuhakuNotifications */; };
+		2D3BBF7C2F1A71160060596E /* KokuhakuNotifications in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF7B2F1A71160060596E /* KokuhakuNotifications */; };
+		2D3BBF942F1A77770060596E /* KokuhakuHealthKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF932F1A77770060596E /* KokuhakuHealthKit */; };
+		2D3BBF962F1A777E0060596E /* KokuhakuHealthKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF952F1A777E0060596E /* KokuhakuHealthKit */; };
+		2D3BBF982F1A77860060596E /* KokuhakuHealthKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF972F1A77860060596E /* KokuhakuHealthKit */; };
+		2D3BBFAA2F1A78A00060596E /* KokuhakuAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBFA92F1A78A00060596E /* KokuhakuAnalytics */; };
+		2D3BBFAC2F1A78A50060596E /* KokuhakuAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBFAB2F1A78A50060596E /* KokuhakuAnalytics */; };
+		2D3BBFAE2F1A78AC0060596E /* KokuhakuAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBFAD2F1A78AC0060596E /* KokuhakuAnalytics */; };
+		2D3BBFCD2F1A7E640060596E /* KokuhakuFlowExecution in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBFCC2F1A7E640060596E /* KokuhakuFlowExecution */; };
+		2D3BBFCF2F1A7E6F0060596E /* KokuhakuFlowExecution in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBFCE2F1A7E6F0060596E /* KokuhakuFlowExecution */; };
+		2D3BBFD12F1A7E770060596E /* KokuhakuFlowExecution in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBFD02F1A7E770060596E /* KokuhakuFlowExecution */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +91,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3BBEA92F1A3CAD0060596E /* KokuhakuCloudKit in Frameworks */,
+				2D3BBEBF2F1A60D30060596E /* KokuhakuImportLocal in Frameworks */,
+				2D3BBF782F1A71020060596E /* KokuhakuNotifications in Frameworks */,
+				2D3BBF552F1A6E8D0060596E /* KokuhakuDeviceSync in Frameworks */,
+				2D3BBFCD2F1A7E640060596E /* KokuhakuFlowExecution in Frameworks */,
+				2D3BBF942F1A77770060596E /* KokuhakuHealthKit in Frameworks */,
+				2D3BBEF22F1A671C0060596E /* KokuhakuImportGitHub in Frameworks */,
 				2D3BBE582F1A2C910060596E /* KokuhakuCore in Frameworks */,
+				2D3BBFAA2F1A78A00060596E /* KokuhakuAnalytics in Frameworks */,
+				2D3BBED52F1A64D20060596E /* KokuhakuImportGit in Frameworks */,
+				2D3BBF322F1A6C390060596E /* KokuhakuFlowCatalog in Frameworks */,
+				2D3BBF152F1A693D0060596E /* KokuhakuStorageLocal in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +110,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3BBEAB2F1A3CB50060596E /* KokuhakuCloudKit in Frameworks */,
+				2D3BBEC32F1A60E00060596E /* KokuhakuImportLocal in Frameworks */,
+				2D3BBF7C2F1A71160060596E /* KokuhakuNotifications in Frameworks */,
+				2D3BBF572F1A6E930060596E /* KokuhakuDeviceSync in Frameworks */,
+				2D3BBFCF2F1A7E6F0060596E /* KokuhakuFlowExecution in Frameworks */,
+				2D3BBF962F1A777E0060596E /* KokuhakuHealthKit in Frameworks */,
+				2D3BBEF62F1A67280060596E /* KokuhakuImportGitHub in Frameworks */,
 				2D3BBE5A2F1A2C9C0060596E /* KokuhakuCore in Frameworks */,
+				2D3BBFAE2F1A78AC0060596E /* KokuhakuAnalytics in Frameworks */,
+				2D3BBED72F1A64D90060596E /* KokuhakuImportGit in Frameworks */,
+				2D3BBF362F1A6C430060596E /* KokuhakuFlowCatalog in Frameworks */,
+				2D3BBF172F1A69440060596E /* KokuhakuStorageLocal in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +129,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3BBEAD2F1A3CBC0060596E /* KokuhakuCloudKit in Frameworks */,
+				2D3BBEC12F1A60DA0060596E /* KokuhakuImportLocal in Frameworks */,
+				2D3BBF7A2F1A710B0060596E /* KokuhakuNotifications in Frameworks */,
+				2D3BBF592F1A6E980060596E /* KokuhakuDeviceSync in Frameworks */,
+				2D3BBFD12F1A7E770060596E /* KokuhakuFlowExecution in Frameworks */,
+				2D3BBF982F1A77860060596E /* KokuhakuHealthKit in Frameworks */,
+				2D3BBEF42F1A67220060596E /* KokuhakuImportGitHub in Frameworks */,
 				2D3BBE032F1A24FB0060596E /* KokuhakuCore in Frameworks */,
+				2D3BBFAC2F1A78A50060596E /* KokuhakuAnalytics in Frameworks */,
+				2D3BBED92F1A64DF0060596E /* KokuhakuImportGit in Frameworks */,
+				2D3BBF342F1A6C3F0060596E /* KokuhakuFlowCatalog in Frameworks */,
+				2D3BBF192F1A69490060596E /* KokuhakuStorageLocal in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +196,17 @@
 			name = kokuhaku_macos;
 			packageProductDependencies = (
 				2D3BBE572F1A2C910060596E /* KokuhakuCore */,
+				2D3BBEA82F1A3CAD0060596E /* KokuhakuCloudKit */,
+				2D3BBEBE2F1A60D30060596E /* KokuhakuImportLocal */,
+				2D3BBED42F1A64D20060596E /* KokuhakuImportGit */,
+				2D3BBEF12F1A671C0060596E /* KokuhakuImportGitHub */,
+				2D3BBF142F1A693D0060596E /* KokuhakuStorageLocal */,
+				2D3BBF312F1A6C390060596E /* KokuhakuFlowCatalog */,
+				2D3BBF542F1A6E8D0060596E /* KokuhakuDeviceSync */,
+				2D3BBF772F1A71020060596E /* KokuhakuNotifications */,
+				2D3BBF932F1A77770060596E /* KokuhakuHealthKit */,
+				2D3BBFA92F1A78A00060596E /* KokuhakuAnalytics */,
+				2D3BBFCC2F1A7E640060596E /* KokuhakuFlowExecution */,
 			);
 			productName = kokuhaku_macos;
 			productReference = 2D3BBCEA2F18E9050060596E /* kokuhaku_macos.app */;
@@ -154,6 +231,17 @@
 			name = kokuhaku_macosTests;
 			packageProductDependencies = (
 				2D3BBE592F1A2C9C0060596E /* KokuhakuCore */,
+				2D3BBEAA2F1A3CB50060596E /* KokuhakuCloudKit */,
+				2D3BBEC22F1A60E00060596E /* KokuhakuImportLocal */,
+				2D3BBED62F1A64D90060596E /* KokuhakuImportGit */,
+				2D3BBEF52F1A67280060596E /* KokuhakuImportGitHub */,
+				2D3BBF162F1A69440060596E /* KokuhakuStorageLocal */,
+				2D3BBF352F1A6C430060596E /* KokuhakuFlowCatalog */,
+				2D3BBF562F1A6E930060596E /* KokuhakuDeviceSync */,
+				2D3BBF7B2F1A71160060596E /* KokuhakuNotifications */,
+				2D3BBF952F1A777E0060596E /* KokuhakuHealthKit */,
+				2D3BBFAD2F1A78AC0060596E /* KokuhakuAnalytics */,
+				2D3BBFCE2F1A7E6F0060596E /* KokuhakuFlowExecution */,
 			);
 			productName = kokuhaku_macosTests;
 			productReference = 2D3BBCF72F18E9060060596E /* kokuhaku_macosTests.xctest */;
@@ -178,6 +266,17 @@
 			name = kokuhaku_macosUITests;
 			packageProductDependencies = (
 				2D3BBE022F1A24FB0060596E /* KokuhakuCore */,
+				2D3BBEAC2F1A3CBC0060596E /* KokuhakuCloudKit */,
+				2D3BBEC02F1A60DA0060596E /* KokuhakuImportLocal */,
+				2D3BBED82F1A64DF0060596E /* KokuhakuImportGit */,
+				2D3BBEF32F1A67220060596E /* KokuhakuImportGitHub */,
+				2D3BBF182F1A69490060596E /* KokuhakuStorageLocal */,
+				2D3BBF332F1A6C3F0060596E /* KokuhakuFlowCatalog */,
+				2D3BBF582F1A6E980060596E /* KokuhakuDeviceSync */,
+				2D3BBF792F1A710B0060596E /* KokuhakuNotifications */,
+				2D3BBF972F1A77860060596E /* KokuhakuHealthKit */,
+				2D3BBFAB2F1A78A50060596E /* KokuhakuAnalytics */,
+				2D3BBFD02F1A7E770060596E /* KokuhakuFlowExecution */,
 			);
 			productName = kokuhaku_macosUITests;
 			productReference = 2D3BBD012F18E9060060596E /* kokuhaku_macosUITests.xctest */;
@@ -217,6 +316,17 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				2D3BBE002F1A24F10060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */,
+				2D3BBEA72F1A3C990060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCloudKit" */,
+				2D3BBEBD2F1A60D30060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportLocal" */,
+				2D3BBED32F1A64D20060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportGit" */,
+				2D3BBEF02F1A671C0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportGitHub" */,
+				2D3BBF132F1A693D0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuStorageLocal" */,
+				2D3BBF302F1A6C390060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuFlowCatalog" */,
+				2D3BBF532F1A6E8D0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuDeviceSync" */,
+				2D3BBF762F1A71020060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuNotifications" */,
+				2D3BBF922F1A77770060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuHealthKit" */,
+				2D3BBFA82F1A78A00060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuAnalytics" */,
+				2D3BBFCB2F1A7E640060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuFlowExecution" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2D3BBCEB2F18E9050060596E /* Products */;
@@ -612,6 +722,50 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../../Shared/KokuhakuCore;
 		};
+		2D3BBEA72F1A3C990060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCloudKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuCloudKit;
+		};
+		2D3BBEBD2F1A60D30060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportLocal" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuImportLocal;
+		};
+		2D3BBED32F1A64D20060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportGit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuImportGit;
+		};
+		2D3BBEF02F1A671C0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportGitHub" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuImportGitHub;
+		};
+		2D3BBF132F1A693D0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuStorageLocal" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuStorageLocal;
+		};
+		2D3BBF302F1A6C390060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuFlowCatalog" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuFlowCatalog;
+		};
+		2D3BBF532F1A6E8D0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuDeviceSync" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuDeviceSync;
+		};
+		2D3BBF762F1A71020060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuNotifications" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuNotifications;
+		};
+		2D3BBF922F1A77770060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuHealthKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuHealthKit;
+		};
+		2D3BBFA82F1A78A00060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuAnalytics" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuAnalytics;
+		};
+		2D3BBFCB2F1A7E640060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuFlowExecution" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuFlowExecution;
+		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -629,6 +783,161 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2D3BBE002F1A24F10060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
 			productName = KokuhakuCore;
+		};
+		2D3BBEA82F1A3CAD0060596E /* KokuhakuCloudKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBEA72F1A3C990060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCloudKit" */;
+			productName = KokuhakuCloudKit;
+		};
+		2D3BBEAA2F1A3CB50060596E /* KokuhakuCloudKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBEA72F1A3C990060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCloudKit" */;
+			productName = KokuhakuCloudKit;
+		};
+		2D3BBEAC2F1A3CBC0060596E /* KokuhakuCloudKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBEA72F1A3C990060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCloudKit" */;
+			productName = KokuhakuCloudKit;
+		};
+		2D3BBEBE2F1A60D30060596E /* KokuhakuImportLocal */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuImportLocal;
+		};
+		2D3BBEC02F1A60DA0060596E /* KokuhakuImportLocal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBEBD2F1A60D30060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportLocal" */;
+			productName = KokuhakuImportLocal;
+		};
+		2D3BBEC22F1A60E00060596E /* KokuhakuImportLocal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBEBD2F1A60D30060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportLocal" */;
+			productName = KokuhakuImportLocal;
+		};
+		2D3BBED42F1A64D20060596E /* KokuhakuImportGit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuImportGit;
+		};
+		2D3BBED62F1A64D90060596E /* KokuhakuImportGit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBED32F1A64D20060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportGit" */;
+			productName = KokuhakuImportGit;
+		};
+		2D3BBED82F1A64DF0060596E /* KokuhakuImportGit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBED32F1A64D20060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportGit" */;
+			productName = KokuhakuImportGit;
+		};
+		2D3BBEF12F1A671C0060596E /* KokuhakuImportGitHub */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuImportGitHub;
+		};
+		2D3BBEF32F1A67220060596E /* KokuhakuImportGitHub */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBEF02F1A671C0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportGitHub" */;
+			productName = KokuhakuImportGitHub;
+		};
+		2D3BBEF52F1A67280060596E /* KokuhakuImportGitHub */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBEF02F1A671C0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportGitHub" */;
+			productName = KokuhakuImportGitHub;
+		};
+		2D3BBF142F1A693D0060596E /* KokuhakuStorageLocal */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuStorageLocal;
+		};
+		2D3BBF162F1A69440060596E /* KokuhakuStorageLocal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBF132F1A693D0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuStorageLocal" */;
+			productName = KokuhakuStorageLocal;
+		};
+		2D3BBF182F1A69490060596E /* KokuhakuStorageLocal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBF132F1A693D0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuStorageLocal" */;
+			productName = KokuhakuStorageLocal;
+		};
+		2D3BBF312F1A6C390060596E /* KokuhakuFlowCatalog */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuFlowCatalog;
+		};
+		2D3BBF332F1A6C3F0060596E /* KokuhakuFlowCatalog */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBF302F1A6C390060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuFlowCatalog" */;
+			productName = KokuhakuFlowCatalog;
+		};
+		2D3BBF352F1A6C430060596E /* KokuhakuFlowCatalog */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBF302F1A6C390060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuFlowCatalog" */;
+			productName = KokuhakuFlowCatalog;
+		};
+		2D3BBF542F1A6E8D0060596E /* KokuhakuDeviceSync */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuDeviceSync;
+		};
+		2D3BBF562F1A6E930060596E /* KokuhakuDeviceSync */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBF532F1A6E8D0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuDeviceSync" */;
+			productName = KokuhakuDeviceSync;
+		};
+		2D3BBF582F1A6E980060596E /* KokuhakuDeviceSync */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBF532F1A6E8D0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuDeviceSync" */;
+			productName = KokuhakuDeviceSync;
+		};
+		2D3BBF772F1A71020060596E /* KokuhakuNotifications */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuNotifications;
+		};
+		2D3BBF792F1A710B0060596E /* KokuhakuNotifications */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBF762F1A71020060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuNotifications" */;
+			productName = KokuhakuNotifications;
+		};
+		2D3BBF7B2F1A71160060596E /* KokuhakuNotifications */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBF762F1A71020060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuNotifications" */;
+			productName = KokuhakuNotifications;
+		};
+		2D3BBF932F1A77770060596E /* KokuhakuHealthKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuHealthKit;
+		};
+		2D3BBF952F1A777E0060596E /* KokuhakuHealthKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBF922F1A77770060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuHealthKit" */;
+			productName = KokuhakuHealthKit;
+		};
+		2D3BBF972F1A77860060596E /* KokuhakuHealthKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBF922F1A77770060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuHealthKit" */;
+			productName = KokuhakuHealthKit;
+		};
+		2D3BBFA92F1A78A00060596E /* KokuhakuAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuAnalytics;
+		};
+		2D3BBFAB2F1A78A50060596E /* KokuhakuAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBFA82F1A78A00060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuAnalytics" */;
+			productName = KokuhakuAnalytics;
+		};
+		2D3BBFAD2F1A78AC0060596E /* KokuhakuAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBFA82F1A78A00060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuAnalytics" */;
+			productName = KokuhakuAnalytics;
+		};
+		2D3BBFCC2F1A7E640060596E /* KokuhakuFlowExecution */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuFlowExecution;
+		};
+		2D3BBFCE2F1A7E6F0060596E /* KokuhakuFlowExecution */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBFCB2F1A7E640060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuFlowExecution" */;
+			productName = KokuhakuFlowExecution;
+		};
+		2D3BBFD02F1A7E770060596E /* KokuhakuFlowExecution */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBFCB2F1A7E640060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuFlowExecution" */;
+			productName = KokuhakuFlowExecution;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

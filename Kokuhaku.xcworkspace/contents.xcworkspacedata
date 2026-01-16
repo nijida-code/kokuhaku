@@ -13,10 +13,9 @@
       <Group
          location = "group:KokuhakuCore"
          name = "KokuhakuCore">
-         <Group
-            location = "group:Tests"
-            name = "Tests">
-         </Group>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
          <FileRef
             location = "group:Package.swift">
          </FileRef>
@@ -41,6 +40,506 @@
                </FileRef>
                <FileRef
                   location = "group:MapperFactory.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Tests"
+            name = "Tests">
+         </Group>
+      </Group>
+      <Group
+         location = "group:KokuhakuCloudKit"
+         name = "KokuhakuCloudKit">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:Package.swift">
+         </FileRef>
+         <Group
+            location = "group:Sources"
+            name = "Sources">
+            <Group
+               location = "group:KokuhakuCloudKit"
+               name = "KokuhakuCloudKit">
+               <FileRef
+                  location = "group:KokuhakuCloudKit.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:CloudKitFlowStore.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Tests"
+            name = "Tests">
+            <Group
+               location = "group:KokuhakuCloudKitTests"
+               name = "KokuhakuCloudKitTests">
+               <FileRef
+                  location = "group:KokuhakuCloudKitTests.swift">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:KokuhakuImportLocal"
+         name = "KokuhakuImportLocal">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:Package.swift">
+         </FileRef>
+         <Group
+            location = "group:Sources"
+            name = "Sources">
+            <Group
+               location = "group:KokuhakuImportLocal"
+               name = "KokuhakuImportLocal">
+               <FileRef
+                  location = "group:FlowFileDescriptor.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:LocalFlowFileFormat.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:LocalFlowDirectoryScanner.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:KokuhakuImportLocal.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:LocalFlowImporter.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Tests"
+            name = "Tests">
+            <Group
+               location = "group:KokuhakuImportLocalTests"
+               name = "KokuhakuImportLocalTests">
+               <FileRef
+                  location = "group:KokuhakuImportLocalTests.swift">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:KokuhakuImportGit"
+         name = "KokuhakuImportGit">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:Package.swift">
+         </FileRef>
+         <Group
+            location = "group:Sources"
+            name = "Sources">
+            <Group
+               location = "group:KokuhakuImportGit"
+               name = "KokuhakuImportGit">
+               <FileRef
+                  location = "group:GitRepositorySpec.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:GitImportError.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:KokuhakuImportGit.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:GitClient.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:GitImporter.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:GitCheckoutResult.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Tests"
+            name = "Tests">
+            <Group
+               location = "group:KokuhakuImportGitTests"
+               name = "KokuhakuImportGitTests">
+               <FileRef
+                  location = "group:KokuhakuImportGitTests.swift">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:KokuhakuImportGitHub"
+         name = "KokuhakuImportGitHub">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:Package.swift">
+         </FileRef>
+         <Group
+            location = "group:Sources"
+            name = "Sources">
+            <Group
+               location = "group:KokuhakuImportGitHub"
+               name = "KokuhakuImportGitHub">
+               <FileRef
+                  location = "group:GitHubRepositorySpec.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DefaultGitHubClient.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:GitHubContentItem.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:GitHubClient.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:KokuhakuImportGitHub.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:GitHubImportError.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Tests"
+            name = "Tests">
+            <Group
+               location = "group:KokuhakuImportGitHubTests"
+               name = "KokuhakuImportGitHubTests">
+               <FileRef
+                  location = "group:KokuhakuImportGitHubTests.swift">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:KokuhakuStorageLocal"
+         name = "KokuhakuStorageLocal">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:Package.swift">
+         </FileRef>
+         <Group
+            location = "group:Sources"
+            name = "Sources">
+            <Group
+               location = "group:KokuhakuStorageLocal"
+               name = "KokuhakuStorageLocal">
+               <FileRef
+                  location = "group:LocalStorageError.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:StoredFlowDescriptor.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:KokuhakuStorageLocal.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:LocalStorageDirectories.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:LocalFlowPayloadStore.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Tests"
+            name = "Tests">
+            <Group
+               location = "group:KokuhakuStorageLocalTests"
+               name = "KokuhakuStorageLocalTests">
+               <FileRef
+                  location = "group:KokuhakuStorageLocalTests.swift">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:KokuhakuFlowCatalog"
+         name = "KokuhakuFlowCatalog">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:Package.swift">
+         </FileRef>
+         <Group
+            location = "group:Sources"
+            name = "Sources">
+            <Group
+               location = "group:KokuhakuFlowCatalog"
+               name = "KokuhakuFlowCatalog">
+               <FileRef
+                  location = "group:KokuhakuFlowCatalog.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:FlowCatalogService.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:FlowCatalogOrigin.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:FlowCatalogEntry.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Tests"
+            name = "Tests">
+            <Group
+               location = "group:KokuhakuFlowCatalogTests"
+               name = "KokuhakuFlowCatalogTests">
+               <FileRef
+                  location = "group:KokuhakuFlowCatalogTests.swift">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:KokuhakuDeviceSync"
+         name = "KokuhakuDeviceSync">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:Package.swift">
+         </FileRef>
+         <Group
+            location = "group:Sources"
+            name = "Sources">
+            <Group
+               location = "group:KokuhakuDeviceSync"
+               name = "KokuhakuDeviceSync">
+               <FileRef
+                  location = "group:FlowDeploymentIntent.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:FlowOperationAck.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DeviceSyncTransport.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:FlowPayloadEnvelope.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DeviceTarget.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:KokuhakuDeviceSync.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DeviceSyncMessage.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Tests"
+            name = "Tests">
+            <Group
+               location = "group:KokuhakuDeviceSyncTests"
+               name = "KokuhakuDeviceSyncTests">
+               <FileRef
+                  location = "group:KokuhakuDeviceSyncTests.swift">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:KokuhakuNotifications"
+         name = "KokuhakuNotifications">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:Package.swift">
+         </FileRef>
+         <Group
+            location = "group:Sources"
+            name = "Sources">
+            <Group
+               location = "group:KokuhakuNotifications"
+               name = "KokuhakuNotifications">
+               <FileRef
+                  location = "group:NotificationDelivering.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:NotificationChannel.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:NotificationKind.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:KokuhakuNotifications.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:NotificationDeliveryPlan.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:NotificationRequest.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Tests"
+            name = "Tests">
+            <Group
+               location = "group:KokuhakuNotificationsTests"
+               name = "KokuhakuNotificationsTests">
+               <FileRef
+                  location = "group:KokuhakuNotificationsTests.swift">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:KokuhakuHealthKit"
+         name = "KokuhakuHealthKit">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:Package.swift">
+         </FileRef>
+         <Group
+            location = "group:Sources"
+            name = "Sources">
+            <Group
+               location = "group:KokuhakuHealthKit"
+               name = "KokuhakuHealthKit">
+               <FileRef
+                  location = "group:HealthKitError.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:HealthKitAvailability.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:HealthMetricSample.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:KokuhakuHealthKit.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:HealthKitReader.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:HealthKitAuthorization.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Tests"
+            name = "Tests">
+            <Group
+               location = "group:KokuhakuHealthKitTests"
+               name = "KokuhakuHealthKitTests">
+               <FileRef
+                  location = "group:KokuhakuHealthKitTests.swift">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:KokuhakuAnalytics"
+         name = "KokuhakuAnalytics">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:Package.swift">
+         </FileRef>
+         <Group
+            location = "group:Sources"
+            name = "Sources">
+            <Group
+               location = "group:KokuhakuAnalytics"
+               name = "KokuhakuAnalytics">
+               <FileRef
+                  location = "group:PerformanceScore.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:FlowRunSample.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:KokuhakuAnalytics.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:AnalyticsEngine.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ContextDay.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Tests"
+            name = "Tests">
+            <Group
+               location = "group:KokuhakuAnalyticsTests"
+               name = "KokuhakuAnalyticsTests">
+               <FileRef
+                  location = "group:KokuhakuAnalyticsTests.swift">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:KokuhakuFlowExecution"
+         name = "KokuhakuFlowExecution">
+         <Group
+            location = "group:Tests"
+            name = "Tests">
+            <Group
+               location = "group:KokuhakuFlowExecutionTests"
+               name = "KokuhakuFlowExecutionTests">
+               <FileRef
+                  location = "group:KokuhakuFlowExecutionTests.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:Package.swift">
+         </FileRef>
+         <Group
+            location = "group:Sources"
+            name = "Sources">
+            <Group
+               location = "group:KokuhakuFlowExecution"
+               name = "KokuhakuFlowExecution">
+               <FileRef
+                  location = "group:KokuhakuFlowExecution.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:FlowRunSummary.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:FlowExecutionError.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:FlowExecutionEvent.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:FlowExecutionSession.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:StepExecutionState.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:FlowExecutionResult.swift">
                </FileRef>
             </Group>
          </Group>

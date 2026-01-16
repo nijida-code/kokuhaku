@@ -8,7 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		2D3BBDFF2F1A24DD0060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBDFE2F1A24DD0060596E /* KokuhakuCore */; };
-		2D3BBE562F1A2C240060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE552F1A2C240060596E /* KokuhakuCore */; };
+		2D3BBEA62F1A3C6A0060596E /* KokuhakuCloudKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBEA52F1A3C6A0060596E /* KokuhakuCloudKit */; };
+		2D3BBEBC2F1A60C60060596E /* KokuhakuImportLocal in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBEBB2F1A60C60060596E /* KokuhakuImportLocal */; };
+		2D3BBED22F1A64C10060596E /* KokuhakuImportGit in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBED12F1A64C10060596E /* KokuhakuImportGit */; };
+		2D3BBEEF2F1A670E0060596E /* KokuhakuImportGitHub in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBEEE2F1A670E0060596E /* KokuhakuImportGitHub */; };
+		2D3BBF122F1A69320060596E /* KokuhakuStorageLocal in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF112F1A69320060596E /* KokuhakuStorageLocal */; };
+		2D3BBF2F2F1A6C2E0060596E /* KokuhakuFlowCatalog in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF2E2F1A6C2E0060596E /* KokuhakuFlowCatalog */; };
+		2D3BBF522F1A6E790060596E /* KokuhakuDeviceSync in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF512F1A6E790060596E /* KokuhakuDeviceSync */; };
+		2D3BBF752F1A70F80060596E /* KokuhakuNotifications in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF742F1A70F80060596E /* KokuhakuNotifications */; };
+		2D3BBF912F1A77660060596E /* KokuhakuHealthKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF902F1A77660060596E /* KokuhakuHealthKit */; };
+		2D3BBFA72F1A78910060596E /* KokuhakuAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBFA62F1A78910060596E /* KokuhakuAnalytics */; };
+		2D3BBFCA2F1A7E500060596E /* KokuhakuFlowExecution in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBFC92F1A7E500060596E /* KokuhakuFlowExecution */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,18 +35,12 @@
 
 /* Begin PBXFileReference section */
 		2D3BBD352F18EA160060596E /* kokuhaku_macos_cli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kokuhaku_macos_cli; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D3BBE082F1A291C0060596E /* kokuhaku_macos_cliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kokuhaku_macos_cliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2D3BBD372F18EA160060596E /* kokuhaku_macos_cli */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = kokuhaku_macos_cli;
-			sourceTree = "<group>";
-		};
-		2D3BBE092F1A291C0060596E /* kokuhaku_macos_cliTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = kokuhaku_macos_cliTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -46,15 +50,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3BBEA62F1A3C6A0060596E /* KokuhakuCloudKit in Frameworks */,
+				2D3BBEBC2F1A60C60060596E /* KokuhakuImportLocal in Frameworks */,
+				2D3BBF752F1A70F80060596E /* KokuhakuNotifications in Frameworks */,
+				2D3BBF522F1A6E790060596E /* KokuhakuDeviceSync in Frameworks */,
+				2D3BBFCA2F1A7E500060596E /* KokuhakuFlowExecution in Frameworks */,
+				2D3BBF912F1A77660060596E /* KokuhakuHealthKit in Frameworks */,
+				2D3BBEEF2F1A670E0060596E /* KokuhakuImportGitHub in Frameworks */,
 				2D3BBDFF2F1A24DD0060596E /* KokuhakuCore in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D3BBE052F1A291C0060596E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D3BBE562F1A2C240060596E /* KokuhakuCore in Frameworks */,
+				2D3BBFA72F1A78910060596E /* KokuhakuAnalytics in Frameworks */,
+				2D3BBED22F1A64C10060596E /* KokuhakuImportGit in Frameworks */,
+				2D3BBF2F2F1A6C2E0060596E /* KokuhakuFlowCatalog in Frameworks */,
+				2D3BBF122F1A69320060596E /* KokuhakuStorageLocal in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				2D3BBD372F18EA160060596E /* kokuhaku_macos_cli */,
-				2D3BBE092F1A291C0060596E /* kokuhaku_macos_cliTests */,
 				2D3BBE542F1A2C240060596E /* Frameworks */,
 				2D3BBD362F18EA160060596E /* Products */,
 			);
@@ -75,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				2D3BBD352F18EA160060596E /* kokuhaku_macos_cli */,
-				2D3BBE082F1A291C0060596E /* kokuhaku_macos_cliTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,33 +113,21 @@
 			name = kokuhaku_macos_cli;
 			packageProductDependencies = (
 				2D3BBDFE2F1A24DD0060596E /* KokuhakuCore */,
+				2D3BBEA52F1A3C6A0060596E /* KokuhakuCloudKit */,
+				2D3BBEBB2F1A60C60060596E /* KokuhakuImportLocal */,
+				2D3BBED12F1A64C10060596E /* KokuhakuImportGit */,
+				2D3BBEEE2F1A670E0060596E /* KokuhakuImportGitHub */,
+				2D3BBF112F1A69320060596E /* KokuhakuStorageLocal */,
+				2D3BBF2E2F1A6C2E0060596E /* KokuhakuFlowCatalog */,
+				2D3BBF512F1A6E790060596E /* KokuhakuDeviceSync */,
+				2D3BBF742F1A70F80060596E /* KokuhakuNotifications */,
+				2D3BBF902F1A77660060596E /* KokuhakuHealthKit */,
+				2D3BBFA62F1A78910060596E /* KokuhakuAnalytics */,
+				2D3BBFC92F1A7E500060596E /* KokuhakuFlowExecution */,
 			);
 			productName = kokuhaku_macos_cli;
 			productReference = 2D3BBD352F18EA160060596E /* kokuhaku_macos_cli */;
 			productType = "com.apple.product-type.tool";
-		};
-		2D3BBE072F1A291C0060596E /* kokuhaku_macos_cliTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D3BBE0C2F1A291C0060596E /* Build configuration list for PBXNativeTarget "kokuhaku_macos_cliTests" */;
-			buildPhases = (
-				2D3BBE042F1A291C0060596E /* Sources */,
-				2D3BBE052F1A291C0060596E /* Frameworks */,
-				2D3BBE062F1A291C0060596E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				2D3BBE092F1A291C0060596E /* kokuhaku_macos_cliTests */,
-			);
-			name = kokuhaku_macos_cliTests;
-			packageProductDependencies = (
-				2D3BBE552F1A2C240060596E /* KokuhakuCore */,
-			);
-			productName = kokuhaku_macos_cliTests;
-			productReference = 2D3BBE082F1A291C0060596E /* kokuhaku_macos_cliTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -147,9 +140,6 @@
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					2D3BBD342F18EA160060596E = {
-						CreatedOnToolsVersion = 26.2;
-					};
-					2D3BBE072F1A291C0060596E = {
 						CreatedOnToolsVersion = 26.2;
 					};
 				};
@@ -165,6 +155,17 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				2D3BBDFD2F1A24DD0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */,
+				2D3BBEA42F1A3C6A0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCloudKit" */,
+				2D3BBEBA2F1A60C60060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportLocal" */,
+				2D3BBED02F1A64C10060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportGit" */,
+				2D3BBEED2F1A670E0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportGitHub" */,
+				2D3BBF102F1A69320060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuStorageLocal" */,
+				2D3BBF2D2F1A6C2E0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuFlowCatalog" */,
+				2D3BBF502F1A6E790060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuDeviceSync" */,
+				2D3BBF732F1A70F80060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuNotifications" */,
+				2D3BBF8F2F1A77660060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuHealthKit" */,
+				2D3BBFA52F1A78910060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuAnalytics" */,
+				2D3BBFC82F1A7E500060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuFlowExecution" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2D3BBD362F18EA160060596E /* Products */;
@@ -172,30 +173,12 @@
 			projectRoot = "";
 			targets = (
 				2D3BBD342F18EA160060596E /* kokuhaku_macos_cli */,
-				2D3BBE072F1A291C0060596E /* kokuhaku_macos_cliTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		2D3BBE062F1A291C0060596E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		2D3BBD312F18EA160060596E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D3BBE042F1A291C0060596E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -355,57 +338,6 @@
 			};
 			name = Release;
 		};
-		2D3BBE0D2F1A291C0060596E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6MJCL4W8J6;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.kokuhaku-macos-cliTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				SDKROOT = watchos;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = macosx;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				WATCHOS_DEPLOYMENT_TARGET = 26.2;
-			};
-			name = Debug;
-		};
-		2D3BBE0E2F1A291C0060596E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6MJCL4W8J6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.kokuhaku-macos-cliTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = macosx;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 26.2;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -427,21 +359,56 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D3BBE0C2F1A291C0060596E /* Build configuration list for PBXNativeTarget "kokuhaku_macos_cliTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D3BBE0D2F1A291C0060596E /* Debug */,
-				2D3BBE0E2F1A291C0060596E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
 		2D3BBDFD2F1A24DD0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../../Shared/KokuhakuCore;
+		};
+		2D3BBEA42F1A3C6A0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCloudKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuCloudKit;
+		};
+		2D3BBEBA2F1A60C60060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportLocal" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuImportLocal;
+		};
+		2D3BBED02F1A64C10060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportGit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuImportGit;
+		};
+		2D3BBEED2F1A670E0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuImportGitHub" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuImportGitHub;
+		};
+		2D3BBF102F1A69320060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuStorageLocal" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuStorageLocal;
+		};
+		2D3BBF2D2F1A6C2E0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuFlowCatalog" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuFlowCatalog;
+		};
+		2D3BBF502F1A6E790060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuDeviceSync" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuDeviceSync;
+		};
+		2D3BBF732F1A70F80060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuNotifications" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuNotifications;
+		};
+		2D3BBF8F2F1A77660060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuHealthKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuHealthKit;
+		};
+		2D3BBFA52F1A78910060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuAnalytics" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuAnalytics;
+		};
+		2D3BBFC82F1A7E500060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuFlowExecution" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuFlowExecution;
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -450,10 +417,49 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = KokuhakuCore;
 		};
-		2D3BBE552F1A2C240060596E /* KokuhakuCore */ = {
+		2D3BBEA52F1A3C6A0060596E /* KokuhakuCloudKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2D3BBDFD2F1A24DD0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
-			productName = KokuhakuCore;
+			productName = KokuhakuCloudKit;
+		};
+		2D3BBEBB2F1A60C60060596E /* KokuhakuImportLocal */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuImportLocal;
+		};
+		2D3BBED12F1A64C10060596E /* KokuhakuImportGit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuImportGit;
+		};
+		2D3BBEEE2F1A670E0060596E /* KokuhakuImportGitHub */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuImportGitHub;
+		};
+		2D3BBF112F1A69320060596E /* KokuhakuStorageLocal */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuStorageLocal;
+		};
+		2D3BBF2E2F1A6C2E0060596E /* KokuhakuFlowCatalog */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuFlowCatalog;
+		};
+		2D3BBF512F1A6E790060596E /* KokuhakuDeviceSync */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuDeviceSync;
+		};
+		2D3BBF742F1A70F80060596E /* KokuhakuNotifications */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuNotifications;
+		};
+		2D3BBF902F1A77660060596E /* KokuhakuHealthKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuHealthKit;
+		};
+		2D3BBFA62F1A78910060596E /* KokuhakuAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuAnalytics;
+		};
+		2D3BBFC92F1A7E500060596E /* KokuhakuFlowExecution */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuFlowExecution;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
