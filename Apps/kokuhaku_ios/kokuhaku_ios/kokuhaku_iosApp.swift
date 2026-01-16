@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import KokuhakuCore
 
 @main
 struct kokuhaku_iosApp: App {

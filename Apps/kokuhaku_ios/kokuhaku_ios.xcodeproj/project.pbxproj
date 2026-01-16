@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		2D3BBD962F18FD510060596E /* kokuhaku_watchos Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2D3BBD762F18FD500060596E /* kokuhaku_watchos Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2D3BBDFC2F1A24910060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBDFB2F1A24910060596E /* KokuhakuCore */; };
+		2D3BBE4B2F1A2BDA0060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE4A2F1A2BDA0060596E /* KokuhakuCore */; };
+		2D3BBE4D2F1A2BE00060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE4C2F1A2BE00060596E /* KokuhakuCore */; };
+		2D3BBE4F2F1A2BEB0060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE4E2F1A2BEB0060596E /* KokuhakuCore */; };
+		2D3BBE512F1A2BF20060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE502F1A2BF20060596E /* KokuhakuCore */; };
+		2D3BBE532F1A2BF80060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE522F1A2BF80060596E /* KokuhakuCore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3BBE4B2F1A2BDA0060596E /* KokuhakuCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3BBE4D2F1A2BE00060596E /* KokuhakuCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3BBE4F2F1A2BEB0060596E /* KokuhakuCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3BBE512F1A2BF20060596E /* KokuhakuCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3BBE532F1A2BF80060596E /* KokuhakuCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +242,7 @@
 			);
 			name = kokuhaku_iosTests;
 			packageProductDependencies = (
+				2D3BBE4A2F1A2BDA0060596E /* KokuhakuCore */,
 			);
 			productName = kokuhaku_iosTests;
 			productReference = 2D3BBD552F18EA800060596E /* kokuhaku_iosTests.xctest */;
@@ -255,6 +266,7 @@
 			);
 			name = kokuhaku_iosUITests;
 			packageProductDependencies = (
+				2D3BBE4C2F1A2BE00060596E /* KokuhakuCore */,
 			);
 			productName = kokuhaku_iosUITests;
 			productReference = 2D3BBD5F2F18EA800060596E /* kokuhaku_iosUITests.xctest */;
@@ -277,6 +289,7 @@
 			);
 			name = "kokuhaku_watchos Watch App";
 			packageProductDependencies = (
+				2D3BBE4E2F1A2BEB0060596E /* KokuhakuCore */,
 			);
 			productName = "kokuhaku_watchos Watch App";
 			productReference = 2D3BBD762F18FD500060596E /* kokuhaku_watchos Watch App.app */;
@@ -300,6 +313,7 @@
 			);
 			name = "kokuhaku_watchos Watch AppTests";
 			packageProductDependencies = (
+				2D3BBE502F1A2BF20060596E /* KokuhakuCore */,
 			);
 			productName = "kokuhaku_watchos Watch AppTests";
 			productReference = 2D3BBD822F18FD510060596E /* kokuhaku_watchos Watch AppTests.xctest */;
@@ -323,6 +337,7 @@
 			);
 			name = "kokuhaku_watchos Watch AppUITests";
 			packageProductDependencies = (
+				2D3BBE522F1A2BF80060596E /* KokuhakuCore */,
 			);
 			productName = "kokuhaku_watchos Watch AppUITests";
 			productReference = 2D3BBD8C2F18FD510060596E /* kokuhaku_watchos Watch AppUITests.xctest */;
@@ -648,7 +663,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -687,7 +702,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -717,7 +732,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6MJCL4W8J6;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.kokuhaku-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -743,7 +758,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6MJCL4W8J6;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.kokuhaku-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -768,7 +783,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6MJCL4W8J6;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.kokuhaku-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -793,7 +808,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6MJCL4W8J6;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.kokuhaku-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -840,7 +855,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Debug;
 		};
@@ -873,7 +888,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Release;
 		};
@@ -896,7 +911,7 @@
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kokuhaku_watchos Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kokuhaku_watchos Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Debug;
 		};
@@ -919,7 +934,7 @@
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kokuhaku_watchos Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kokuhaku_watchos Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Release;
 		};
@@ -941,7 +956,7 @@
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_TARGET_NAME = "kokuhaku_watchos Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Debug;
 		};
@@ -963,7 +978,7 @@
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_TARGET_NAME = "kokuhaku_watchos Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Release;
 		};
@@ -1044,6 +1059,31 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		2D3BBDFB2F1A24910060596E /* KokuhakuCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBDF92F1A23340060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
+			productName = KokuhakuCore;
+		};
+		2D3BBE4A2F1A2BDA0060596E /* KokuhakuCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBDF92F1A23340060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
+			productName = KokuhakuCore;
+		};
+		2D3BBE4C2F1A2BE00060596E /* KokuhakuCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBDF92F1A23340060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
+			productName = KokuhakuCore;
+		};
+		2D3BBE4E2F1A2BEB0060596E /* KokuhakuCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBDF92F1A23340060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
+			productName = KokuhakuCore;
+		};
+		2D3BBE502F1A2BF20060596E /* KokuhakuCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBDF92F1A23340060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
+			productName = KokuhakuCore;
+		};
+		2D3BBE522F1A2BF80060596E /* KokuhakuCore */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2D3BBDF92F1A23340060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
 			productName = KokuhakuCore;

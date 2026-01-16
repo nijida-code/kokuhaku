@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D3BBE6A2F1A2EB50060596E /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE692F1A2EB50060596E /* RealityKitContent */; };
+		2D3BBE882F1A2F1A0060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE872F1A2F1A0060596E /* KokuhakuCore */; };
+		2D3BBE8A2F1A2F210060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE892F1A2F210060596E /* KokuhakuCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D3BBE772F1A2EB60060596E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D3BBE5C2F1A2EB50060596E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D3BBE632F1A2EB50060596E;
+			remoteInfo = kokuhaku_visionos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D3BBE642F1A2EB50060596E /* kokuhaku_visionos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kokuhaku_visionos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3BBE682F1A2EB50060596E /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RealityKitContent; sourceTree = "<group>"; };
+		2D3BBE762F1A2EB60060596E /* kokuhaku_visionosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kokuhaku_visionosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2D3BBE7C2F1A2EB60060596E /* Exceptions for "kokuhaku_visionos" folder in "kokuhaku_visionos" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2D3BBE632F1A2EB50060596E /* kokuhaku_visionos */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2D3BBE662F1A2EB50060596E /* kokuhaku_visionos */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2D3BBE7C2F1A2EB60060596E /* Exceptions for "kokuhaku_visionos" folder in "kokuhaku_visionos" target */,
+			);
+			path = kokuhaku_visionos;
+			sourceTree = "<group>";
+		};
+		2D3BBE792F1A2EB60060596E /* kokuhaku_visionosTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = kokuhaku_visionosTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D3BBE612F1A2EB50060596E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D3BBE882F1A2F1A0060596E /* KokuhakuCore in Frameworks */,
+				2D3BBE6A2F1A2EB50060596E /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D3BBE732F1A2EB60060596E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D3BBE8A2F1A2F210060596E /* KokuhakuCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D3BBE5B2F1A2EB50060596E = {
+			isa = PBXGroup;
+			children = (
+				2D3BBE662F1A2EB50060596E /* kokuhaku_visionos */,
+				2D3BBE672F1A2EB50060596E /* Packages */,
+				2D3BBE792F1A2EB60060596E /* kokuhaku_visionosTests */,
+				2D3BBE862F1A2F1A0060596E /* Frameworks */,
+				2D3BBE652F1A2EB50060596E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D3BBE652F1A2EB50060596E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D3BBE642F1A2EB50060596E /* kokuhaku_visionos.app */,
+				2D3BBE762F1A2EB60060596E /* kokuhaku_visionosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D3BBE672F1A2EB50060596E /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				2D3BBE682F1A2EB50060596E /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		2D3BBE862F1A2F1A0060596E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D3BBE632F1A2EB50060596E /* kokuhaku_visionos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D3BBE7D2F1A2EB60060596E /* Build configuration list for PBXNativeTarget "kokuhaku_visionos" */;
+			buildPhases = (
+				2D3BBE602F1A2EB50060596E /* Sources */,
+				2D3BBE612F1A2EB50060596E /* Frameworks */,
+				2D3BBE622F1A2EB50060596E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2D3BBE662F1A2EB50060596E /* kokuhaku_visionos */,
+			);
+			name = kokuhaku_visionos;
+			packageProductDependencies = (
+				2D3BBE692F1A2EB50060596E /* RealityKitContent */,
+				2D3BBE872F1A2F1A0060596E /* KokuhakuCore */,
+			);
+			productName = kokuhaku_visionos;
+			productReference = 2D3BBE642F1A2EB50060596E /* kokuhaku_visionos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D3BBE752F1A2EB60060596E /* kokuhaku_visionosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D3BBE822F1A2EB60060596E /* Build configuration list for PBXNativeTarget "kokuhaku_visionosTests" */;
+			buildPhases = (
+				2D3BBE722F1A2EB60060596E /* Sources */,
+				2D3BBE732F1A2EB60060596E /* Frameworks */,
+				2D3BBE742F1A2EB60060596E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D3BBE782F1A2EB60060596E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2D3BBE792F1A2EB60060596E /* kokuhaku_visionosTests */,
+			);
+			name = kokuhaku_visionosTests;
+			packageProductDependencies = (
+				2D3BBE892F1A2F210060596E /* KokuhakuCore */,
+			);
+			productName = kokuhaku_visionosTests;
+			productReference = 2D3BBE762F1A2EB60060596E /* kokuhaku_visionosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D3BBE5C2F1A2EB50060596E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					2D3BBE632F1A2EB50060596E = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					2D3BBE752F1A2EB60060596E = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 2D3BBE632F1A2EB50060596E;
+					};
+				};
+			};
+			buildConfigurationList = 2D3BBE5F2F1A2EB50060596E /* Build configuration list for PBXProject "kokuhaku_visionos" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D3BBE5B2F1A2EB50060596E;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2D3BBE852F1A2F0E0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2D3BBE652F1A2EB50060596E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D3BBE632F1A2EB50060596E /* kokuhaku_visionos */,
+				2D3BBE752F1A2EB60060596E /* kokuhaku_visionosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D3BBE622F1A2EB50060596E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D3BBE742F1A2EB60060596E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D3BBE602F1A2EB50060596E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D3BBE722F1A2EB60060596E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D3BBE782F1A2EB60060596E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D3BBE632F1A2EB50060596E /* kokuhaku_visionos */;
+			targetProxy = 2D3BBE772F1A2EB60060596E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D3BBE7E2F1A2EB60060596E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MJCL4W8J6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Kokuhaku;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.nijida.kokuhaku.visionos.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 1.3;
+			};
+			name = Debug;
+		};
+		2D3BBE7F2F1A2EB60060596E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MJCL4W8J6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Kokuhaku;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.nijida.kokuhaku.visionos.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 1.3;
+			};
+			name = Release;
+		};
+		2D3BBE802F1A2EB60060596E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6MJCL4W8J6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		2D3BBE812F1A2EB60060596E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6MJCL4W8J6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		2D3BBE832F1A2EB60060596E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MJCL4W8J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.kokuhaku-visionosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kokuhaku_visionos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kokuhaku_visionos";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		2D3BBE842F1A2EB60060596E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MJCL4W8J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.kokuhaku-visionosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kokuhaku_visionos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kokuhaku_visionos";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D3BBE5F2F1A2EB50060596E /* Build configuration list for PBXProject "kokuhaku_visionos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D3BBE802F1A2EB60060596E /* Debug */,
+				2D3BBE812F1A2EB60060596E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D3BBE7D2F1A2EB60060596E /* Build configuration list for PBXNativeTarget "kokuhaku_visionos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D3BBE7E2F1A2EB60060596E /* Debug */,
+				2D3BBE7F2F1A2EB60060596E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D3BBE822F1A2EB60060596E /* Build configuration list for PBXNativeTarget "kokuhaku_visionosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D3BBE832F1A2EB60060596E /* Debug */,
+				2D3BBE842F1A2EB60060596E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2D3BBE852F1A2F0E0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D3BBE692F1A2EB50060596E /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		2D3BBE872F1A2F1A0060596E /* KokuhakuCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBE852F1A2F0E0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
+			productName = KokuhakuCore;
+		};
+		2D3BBE892F1A2F210060596E /* KokuhakuCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBE852F1A2F0E0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
+			productName = KokuhakuCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2D3BBE5C2F1A2EB50060596E /* Project object */;
+}

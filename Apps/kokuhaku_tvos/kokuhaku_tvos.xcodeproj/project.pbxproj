@@ -7,102 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D3BBE032F1A24FB0060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE022F1A24FB0060596E /* KokuhakuCore */; };
-		2D3BBE582F1A2C910060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE572F1A2C910060596E /* KokuhakuCore */; };
-		2D3BBE5A2F1A2C9C0060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE592F1A2C9C0060596E /* KokuhakuCore */; };
+		2D3BBE452F1A2B900060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE442F1A2B900060596E /* KokuhakuCore */; };
+		2D3BBE472F1A2BB10060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE462F1A2BB10060596E /* KokuhakuCore */; };
+		2D3BBE492F1A2BBB0060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE482F1A2BBB0060596E /* KokuhakuCore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2D3BBCF82F18E9060060596E /* PBXContainerItemProxy */ = {
+		2D3BBE262F1A2A870060596E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2D3BBCE22F18E9050060596E /* Project object */;
+			containerPortal = 2D3BBE102F1A2A850060596E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2D3BBCE92F18E9050060596E;
-			remoteInfo = kokuhaku_macos;
+			remoteGlobalIDString = 2D3BBE172F1A2A860060596E;
+			remoteInfo = kokuhaku_tvos;
 		};
-		2D3BBD022F18E9060060596E /* PBXContainerItemProxy */ = {
+		2D3BBE302F1A2A870060596E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2D3BBCE22F18E9050060596E /* Project object */;
+			containerPortal = 2D3BBE102F1A2A850060596E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2D3BBCE92F18E9050060596E;
-			remoteInfo = kokuhaku_macos;
+			remoteGlobalIDString = 2D3BBE172F1A2A860060596E;
+			remoteInfo = kokuhaku_tvos;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D3BBCEA2F18E9050060596E /* kokuhaku_macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kokuhaku_macos.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D3BBCF72F18E9060060596E /* kokuhaku_macosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kokuhaku_macosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D3BBD012F18E9060060596E /* kokuhaku_macosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kokuhaku_macosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3BBE182F1A2A860060596E /* kokuhaku_tvos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kokuhaku_tvos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3BBE252F1A2A870060596E /* kokuhaku_tvosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kokuhaku_tvosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3BBE2F2F1A2A870060596E /* kokuhaku_tvosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kokuhaku_tvosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2D3BBCEC2F18E9050060596E /* kokuhaku_macos */ = {
+		2D3BBE1A2F1A2A860060596E /* kokuhaku_tvos */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = kokuhaku_macos;
+			path = kokuhaku_tvos;
 			sourceTree = "<group>";
 		};
-		2D3BBCFA2F18E9060060596E /* kokuhaku_macosTests */ = {
+		2D3BBE282F1A2A870060596E /* kokuhaku_tvosTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = kokuhaku_macosTests;
+			path = kokuhaku_tvosTests;
 			sourceTree = "<group>";
 		};
-		2D3BBD042F18E9060060596E /* kokuhaku_macosUITests */ = {
+		2D3BBE322F1A2A870060596E /* kokuhaku_tvosUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = kokuhaku_macosUITests;
+			path = kokuhaku_tvosUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2D3BBCE72F18E9050060596E /* Frameworks */ = {
+		2D3BBE152F1A2A860060596E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D3BBE582F1A2C910060596E /* KokuhakuCore in Frameworks */,
+				2D3BBE452F1A2B900060596E /* KokuhakuCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D3BBCF42F18E9060060596E /* Frameworks */ = {
+		2D3BBE222F1A2A870060596E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D3BBE5A2F1A2C9C0060596E /* KokuhakuCore in Frameworks */,
+				2D3BBE472F1A2BB10060596E /* KokuhakuCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D3BBCFE2F18E9060060596E /* Frameworks */ = {
+		2D3BBE2C2F1A2A870060596E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D3BBE032F1A24FB0060596E /* KokuhakuCore in Frameworks */,
+				2D3BBE492F1A2BBB0060596E /* KokuhakuCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2D3BBCE12F18E9050060596E = {
+		2D3BBE0F2F1A2A850060596E = {
 			isa = PBXGroup;
 			children = (
-				2D3BBCEC2F18E9050060596E /* kokuhaku_macos */,
-				2D3BBCFA2F18E9060060596E /* kokuhaku_macosTests */,
-				2D3BBD042F18E9060060596E /* kokuhaku_macosUITests */,
-				2D3BBE012F1A24FB0060596E /* Frameworks */,
-				2D3BBCEB2F18E9050060596E /* Products */,
+				2D3BBE1A2F1A2A860060596E /* kokuhaku_tvos */,
+				2D3BBE282F1A2A870060596E /* kokuhaku_tvosTests */,
+				2D3BBE322F1A2A870060596E /* kokuhaku_tvosUITests */,
+				2D3BBE432F1A2B900060596E /* Frameworks */,
+				2D3BBE192F1A2A860060596E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2D3BBCEB2F18E9050060596E /* Products */ = {
+		2D3BBE192F1A2A860060596E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D3BBCEA2F18E9050060596E /* kokuhaku_macos.app */,
-				2D3BBCF72F18E9060060596E /* kokuhaku_macosTests.xctest */,
-				2D3BBD012F18E9060060596E /* kokuhaku_macosUITests.xctest */,
+				2D3BBE182F1A2A860060596E /* kokuhaku_tvos.app */,
+				2D3BBE252F1A2A870060596E /* kokuhaku_tvosTests.xctest */,
+				2D3BBE2F2F1A2A870060596E /* kokuhaku_tvosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D3BBE012F1A24FB0060596E /* Frameworks */ = {
+		2D3BBE432F1A2B900060596E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -112,140 +112,140 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D3BBCE92F18E9050060596E /* kokuhaku_macos */ = {
+		2D3BBE172F1A2A860060596E /* kokuhaku_tvos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D3BBD0B2F18E9060060596E /* Build configuration list for PBXNativeTarget "kokuhaku_macos" */;
+			buildConfigurationList = 2D3BBE392F1A2A870060596E /* Build configuration list for PBXNativeTarget "kokuhaku_tvos" */;
 			buildPhases = (
-				2D3BBCE62F18E9050060596E /* Sources */,
-				2D3BBCE72F18E9050060596E /* Frameworks */,
-				2D3BBCE82F18E9050060596E /* Resources */,
+				2D3BBE142F1A2A860060596E /* Sources */,
+				2D3BBE152F1A2A860060596E /* Frameworks */,
+				2D3BBE162F1A2A860060596E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2D3BBCEC2F18E9050060596E /* kokuhaku_macos */,
+				2D3BBE1A2F1A2A860060596E /* kokuhaku_tvos */,
 			);
-			name = kokuhaku_macos;
+			name = kokuhaku_tvos;
 			packageProductDependencies = (
-				2D3BBE572F1A2C910060596E /* KokuhakuCore */,
+				2D3BBE442F1A2B900060596E /* KokuhakuCore */,
 			);
-			productName = kokuhaku_macos;
-			productReference = 2D3BBCEA2F18E9050060596E /* kokuhaku_macos.app */;
+			productName = kokuhaku_tvos;
+			productReference = 2D3BBE182F1A2A860060596E /* kokuhaku_tvos.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D3BBCF62F18E9060060596E /* kokuhaku_macosTests */ = {
+		2D3BBE242F1A2A870060596E /* kokuhaku_tvosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D3BBD0E2F18E9060060596E /* Build configuration list for PBXNativeTarget "kokuhaku_macosTests" */;
+			buildConfigurationList = 2D3BBE3C2F1A2A870060596E /* Build configuration list for PBXNativeTarget "kokuhaku_tvosTests" */;
 			buildPhases = (
-				2D3BBCF32F18E9060060596E /* Sources */,
-				2D3BBCF42F18E9060060596E /* Frameworks */,
-				2D3BBCF52F18E9060060596E /* Resources */,
+				2D3BBE212F1A2A870060596E /* Sources */,
+				2D3BBE222F1A2A870060596E /* Frameworks */,
+				2D3BBE232F1A2A870060596E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2D3BBCF92F18E9060060596E /* PBXTargetDependency */,
+				2D3BBE272F1A2A870060596E /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				2D3BBCFA2F18E9060060596E /* kokuhaku_macosTests */,
+				2D3BBE282F1A2A870060596E /* kokuhaku_tvosTests */,
 			);
-			name = kokuhaku_macosTests;
+			name = kokuhaku_tvosTests;
 			packageProductDependencies = (
-				2D3BBE592F1A2C9C0060596E /* KokuhakuCore */,
+				2D3BBE462F1A2BB10060596E /* KokuhakuCore */,
 			);
-			productName = kokuhaku_macosTests;
-			productReference = 2D3BBCF72F18E9060060596E /* kokuhaku_macosTests.xctest */;
+			productName = kokuhaku_tvosTests;
+			productReference = 2D3BBE252F1A2A870060596E /* kokuhaku_tvosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2D3BBD002F18E9060060596E /* kokuhaku_macosUITests */ = {
+		2D3BBE2E2F1A2A870060596E /* kokuhaku_tvosUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D3BBD112F18E9060060596E /* Build configuration list for PBXNativeTarget "kokuhaku_macosUITests" */;
+			buildConfigurationList = 2D3BBE3F2F1A2A870060596E /* Build configuration list for PBXNativeTarget "kokuhaku_tvosUITests" */;
 			buildPhases = (
-				2D3BBCFD2F18E9060060596E /* Sources */,
-				2D3BBCFE2F18E9060060596E /* Frameworks */,
-				2D3BBCFF2F18E9060060596E /* Resources */,
+				2D3BBE2B2F1A2A870060596E /* Sources */,
+				2D3BBE2C2F1A2A870060596E /* Frameworks */,
+				2D3BBE2D2F1A2A870060596E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2D3BBD032F18E9060060596E /* PBXTargetDependency */,
+				2D3BBE312F1A2A870060596E /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				2D3BBD042F18E9060060596E /* kokuhaku_macosUITests */,
+				2D3BBE322F1A2A870060596E /* kokuhaku_tvosUITests */,
 			);
-			name = kokuhaku_macosUITests;
+			name = kokuhaku_tvosUITests;
 			packageProductDependencies = (
-				2D3BBE022F1A24FB0060596E /* KokuhakuCore */,
+				2D3BBE482F1A2BBB0060596E /* KokuhakuCore */,
 			);
-			productName = kokuhaku_macosUITests;
-			productReference = 2D3BBD012F18E9060060596E /* kokuhaku_macosUITests.xctest */;
+			productName = kokuhaku_tvosUITests;
+			productReference = 2D3BBE2F2F1A2A870060596E /* kokuhaku_tvosUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2D3BBCE22F18E9050060596E /* Project object */ = {
+		2D3BBE102F1A2A850060596E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					2D3BBCE92F18E9050060596E = {
+					2D3BBE172F1A2A860060596E = {
 						CreatedOnToolsVersion = 26.2;
 					};
-					2D3BBCF62F18E9060060596E = {
+					2D3BBE242F1A2A870060596E = {
 						CreatedOnToolsVersion = 26.2;
-						TestTargetID = 2D3BBCE92F18E9050060596E;
+						TestTargetID = 2D3BBE172F1A2A860060596E;
 					};
-					2D3BBD002F18E9060060596E = {
+					2D3BBE2E2F1A2A870060596E = {
 						CreatedOnToolsVersion = 26.2;
-						TestTargetID = 2D3BBCE92F18E9050060596E;
+						TestTargetID = 2D3BBE172F1A2A860060596E;
 					};
 				};
 			};
-			buildConfigurationList = 2D3BBCE52F18E9050060596E /* Build configuration list for PBXProject "kokuhaku_macos" */;
+			buildConfigurationList = 2D3BBE132F1A2A850060596E /* Build configuration list for PBXProject "kokuhaku_tvos" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 2D3BBCE12F18E9050060596E;
+			mainGroup = 2D3BBE0F2F1A2A850060596E;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				2D3BBE002F1A24F10060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */,
+				2D3BBE422F1A2B820060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 2D3BBCEB2F18E9050060596E /* Products */;
+			productRefGroup = 2D3BBE192F1A2A860060596E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D3BBCE92F18E9050060596E /* kokuhaku_macos */,
-				2D3BBCF62F18E9060060596E /* kokuhaku_macosTests */,
-				2D3BBD002F18E9060060596E /* kokuhaku_macosUITests */,
+				2D3BBE172F1A2A860060596E /* kokuhaku_tvos */,
+				2D3BBE242F1A2A870060596E /* kokuhaku_tvosTests */,
+				2D3BBE2E2F1A2A870060596E /* kokuhaku_tvosUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2D3BBCE82F18E9050060596E /* Resources */ = {
+		2D3BBE162F1A2A860060596E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D3BBCF52F18E9060060596E /* Resources */ = {
+		2D3BBE232F1A2A870060596E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D3BBCFF2F18E9060060596E /* Resources */ = {
+		2D3BBE2D2F1A2A870060596E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,21 +255,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2D3BBCE62F18E9050060596E /* Sources */ = {
+		2D3BBE142F1A2A860060596E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D3BBCF32F18E9060060596E /* Sources */ = {
+		2D3BBE212F1A2A870060596E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D3BBCFD2F18E9060060596E /* Sources */ = {
+		2D3BBE2B2F1A2A870060596E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -279,20 +279,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2D3BBCF92F18E9060060596E /* PBXTargetDependency */ = {
+		2D3BBE272F1A2A870060596E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D3BBCE92F18E9050060596E /* kokuhaku_macos */;
-			targetProxy = 2D3BBCF82F18E9060060596E /* PBXContainerItemProxy */;
+			target = 2D3BBE172F1A2A860060596E /* kokuhaku_tvos */;
+			targetProxy = 2D3BBE262F1A2A870060596E /* PBXContainerItemProxy */;
 		};
-		2D3BBD032F18E9060060596E /* PBXTargetDependency */ = {
+		2D3BBE312F1A2A870060596E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D3BBCE92F18E9050060596E /* kokuhaku_macos */;
-			targetProxy = 2D3BBD022F18E9060060596E /* PBXContainerItemProxy */;
+			target = 2D3BBE172F1A2A860060596E /* kokuhaku_tvos */;
+			targetProxy = 2D3BBE302F1A2A870060596E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2D3BBD092F18E9060060596E /* Debug */ = {
+		2D3BBE372F1A2A870060596E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -346,18 +346,17 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = appletvos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 6.0;
+				TVOS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Debug;
 		};
-		2D3BBD0A2F18E9060060596E /* Release */ = {
+		2D3BBE382F1A2A870060596E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -405,86 +404,80 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = appletvos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_VERSION = 6.0;
+				TVOS_DEPLOYMENT_TARGET = 26.2;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		2D3BBD0C2F18E9060060596E /* Debug */ = {
+		2D3BBE3A2F1A2A870060596E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6MJCL4W8J6;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Kokuhaku;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.nijida.kokuhaku.macos.app;
+				PRODUCT_BUNDLE_IDENTIFIER = de.nijida.kokuhaku.tvos.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.6;
 			};
 			name = Debug;
 		};
-		2D3BBD0D2F18E9060060596E /* Release */ = {
+		2D3BBE3B2F1A2A870060596E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6MJCL4W8J6;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Kokuhaku;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.nijida.kokuhaku.macos.app;
+				PRODUCT_BUNDLE_IDENTIFIER = de.nijida.kokuhaku.tvos.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.6;
 			};
 			name = Release;
 		};
-		2D3BBD0F2F18E9060060596E /* Debug */ = {
+		2D3BBE3D2F1A2A870060596E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,20 +485,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6MJCL4W8J6;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.kokuhaku-macosTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.kokuhaku-tvosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 6.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kokuhaku_macos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kokuhaku_macos";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kokuhaku_tvos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kokuhaku_tvos";
+				TVOS_DEPLOYMENT_TARGET = 17.6;
 			};
 			name = Debug;
 		};
-		2D3BBD102F18E9060060596E /* Release */ = {
+		2D3BBE3E2F1A2A870060596E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,94 +507,97 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6MJCL4W8J6;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.kokuhaku-macosTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.kokuhaku-tvosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 6.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kokuhaku_macos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kokuhaku_macos";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kokuhaku_tvos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kokuhaku_tvos";
+				TVOS_DEPLOYMENT_TARGET = 17.6;
 			};
 			name = Release;
 		};
-		2D3BBD122F18E9060060596E /* Debug */ = {
+		2D3BBE402F1A2A870060596E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6MJCL4W8J6;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.kokuhaku-macosUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.kokuhaku-tvosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 6.0;
-				TEST_TARGET_NAME = kokuhaku_macos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = kokuhaku_tvos;
+				TVOS_DEPLOYMENT_TARGET = 17.6;
 			};
 			name = Debug;
 		};
-		2D3BBD132F18E9060060596E /* Release */ = {
+		2D3BBE412F1A2A870060596E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6MJCL4W8J6;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.kokuhaku-macosUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nijida.kokuhaku-tvosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 6.0;
-				TEST_TARGET_NAME = kokuhaku_macos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = kokuhaku_tvos;
+				TVOS_DEPLOYMENT_TARGET = 17.6;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D3BBCE52F18E9050060596E /* Build configuration list for PBXProject "kokuhaku_macos" */ = {
+		2D3BBE132F1A2A850060596E /* Build configuration list for PBXProject "kokuhaku_tvos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D3BBD092F18E9060060596E /* Debug */,
-				2D3BBD0A2F18E9060060596E /* Release */,
+				2D3BBE372F1A2A870060596E /* Debug */,
+				2D3BBE382F1A2A870060596E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D3BBD0B2F18E9060060596E /* Build configuration list for PBXNativeTarget "kokuhaku_macos" */ = {
+		2D3BBE392F1A2A870060596E /* Build configuration list for PBXNativeTarget "kokuhaku_tvos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D3BBD0C2F18E9060060596E /* Debug */,
-				2D3BBD0D2F18E9060060596E /* Release */,
+				2D3BBE3A2F1A2A870060596E /* Debug */,
+				2D3BBE3B2F1A2A870060596E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D3BBD0E2F18E9060060596E /* Build configuration list for PBXNativeTarget "kokuhaku_macosTests" */ = {
+		2D3BBE3C2F1A2A870060596E /* Build configuration list for PBXNativeTarget "kokuhaku_tvosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D3BBD0F2F18E9060060596E /* Debug */,
-				2D3BBD102F18E9060060596E /* Release */,
+				2D3BBE3D2F1A2A870060596E /* Debug */,
+				2D3BBE3E2F1A2A870060596E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D3BBD112F18E9060060596E /* Build configuration list for PBXNativeTarget "kokuhaku_macosUITests" */ = {
+		2D3BBE3F2F1A2A870060596E /* Build configuration list for PBXNativeTarget "kokuhaku_tvosUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D3BBD122F18E9060060596E /* Debug */,
-				2D3BBD132F18E9060060596E /* Release */,
+				2D3BBE402F1A2A870060596E /* Debug */,
+				2D3BBE412F1A2A870060596E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -608,29 +605,29 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		2D3BBE002F1A24F10060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */ = {
+		2D3BBE422F1A2B820060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../../Shared/KokuhakuCore;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2D3BBE022F1A24FB0060596E /* KokuhakuCore */ = {
+		2D3BBE442F1A2B900060596E /* KokuhakuCore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2D3BBE002F1A24F10060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
+			package = 2D3BBE422F1A2B820060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
 			productName = KokuhakuCore;
 		};
-		2D3BBE572F1A2C910060596E /* KokuhakuCore */ = {
+		2D3BBE462F1A2BB10060596E /* KokuhakuCore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2D3BBE002F1A24F10060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
+			package = 2D3BBE422F1A2B820060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
 			productName = KokuhakuCore;
 		};
-		2D3BBE592F1A2C9C0060596E /* KokuhakuCore */ = {
+		2D3BBE482F1A2BBB0060596E /* KokuhakuCore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2D3BBE002F1A24F10060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
+			package = 2D3BBE422F1A2B820060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
 			productName = KokuhakuCore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 2D3BBCE22F18E9050060596E /* Project object */;
+	rootObject = 2D3BBE102F1A2A850060596E /* Project object */;
 }

@@ -50,6 +50,12 @@
       location = "group:Apps"
       name = "Apps">
       <FileRef
+         location = "group:kokuhaku_visionos/kokuhaku_visionos.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:kokuhaku_tvos/kokuhaku_tvos.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:kokuhaku_ios/kokuhaku_ios.xcodeproj">
       </FileRef>
       <FileRef

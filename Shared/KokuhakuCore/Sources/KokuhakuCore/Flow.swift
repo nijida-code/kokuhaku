@@ -52,7 +52,7 @@ public struct Escalation: Codable {
 // MARK: - Limiter
 public struct Limiter: Codable {
 	private let _offset: Int
-	public let offset: Int {
+	public var offset: Int {
 		if relativeTo == .startOfStep {
 			max(0, _offset)
 		} else {
