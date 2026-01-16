@@ -1,0 +1,51 @@
+{
+	"$schema": "",
+	"version": "1.0",
+	"uuid": "123e4567-e89b-12d3-a456-426614174000",
+	"hash": "abcdef1234567890abcdef1234567890abcdef12",
+	"name": {
+		"en": "Sample Mod",
+		"fr": "Mod d'Exemple",
+		"de": "Beispiel-Mod"
+	},
+	"description": {
+		"en": "This is a sample mod for demonstration purposes.",
+		"fr": "Ceci est un mod d'exemple à des fins de démonstration.",
+		"de": "Dies ist ein Beispiel-Mod zu Demonstrationszwecken."
+	},
+	"long_description": {
+		"en": "This sample mod showcases the structure and format of a mod metadata file. It includes various fields such as name, description, version, and dependencies.",
+		"fr": "Ce mod d'exemple présente la structure et le format d'un fichier de métadonnées de mod. Il comprend divers champs tels que le nom, la description, la version et les dépendances.",
+		"de": "Dieser Beispiel-Mod zeigt die Struktur und das Format einer Mod-Metadatendatei. Es enthält verschiedene Felder wie Name, Beschreibung, Version und Abhängigkeiten."
+	},
+	"flow": [
+		{
+			"step": "initialize",
+			"duration": 10,
+			"unit": "minutes",
+			"notifications": [
+				{
+					"repeat": {
+						"interval": 30,
+						"unit": "seconds"
+					}
+				},
+				{
+					"start": {
+						"offset": -2,
+						"unit": "minutes",
+						"relativeTo": "end_of_step"
+					},
+					"repeat": {
+						"interval": 30,
+						"unit": "seconds",
+						"escalation": {
+							"factor": 2,
+							"function": "exponential"
+						}
+					}
+				}
+			]
+		}
+	]
+}

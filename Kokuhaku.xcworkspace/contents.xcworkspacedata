@@ -8,6 +8,25 @@
       location = "container:LICENSE">
    </FileRef>
    <Group
+      location = "group:Apps"
+      name = "Apps">
+      <FileRef
+         location = "group:kokuhaku_visionos/kokuhaku_visionos.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:kokuhaku_tvos/kokuhaku_tvos.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:kokuhaku_ios/kokuhaku_ios.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:kokuhaku_macos_cli/kokuhaku_macos_cli.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:kokuhaku_macos/kokuhaku_macos.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:Shared"
       name = "Shared">
       <Group
@@ -545,23 +564,8 @@
          </Group>
       </Group>
    </Group>
-   <Group
-      location = "group:Apps"
-      name = "Apps">
-      <FileRef
-         location = "group:kokuhaku_visionos/kokuhaku_visionos.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:kokuhaku_tvos/kokuhaku_tvos.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:kokuhaku_ios/kokuhaku_ios.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:kokuhaku_macos_cli/kokuhaku_macos_cli.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:kokuhaku_macos/kokuhaku_macos.xcodeproj">
-      </FileRef>
-   </Group>
+   <FileSystemSynchronizedGroup
+      location = "group:Vault"
+      name = "Vault">
+   </FileSystemSynchronizedGroup>
 </Workspace>
