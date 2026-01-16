@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2D3BBDFF2F1A24DD0060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBDFE2F1A24DD0060596E /* KokuhakuCore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		2D3BBD332F18EA160060596E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3BBDFF2F1A24DD0060596E /* KokuhakuCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +82,7 @@
 			);
 			name = kokuhaku_macos_cli;
 			packageProductDependencies = (
+				2D3BBDFE2F1A24DD0060596E /* KokuhakuCore */,
 			);
 			productName = kokuhaku_macos_cli;
 			productReference = 2D3BBD352F18EA160060596E /* kokuhaku_macos_cli */;
@@ -106,6 +112,9 @@
 			);
 			mainGroup = 2D3BBD2C2F18EA160060596E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2D3BBDFD2F1A24DD0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2D3BBD362F18EA160060596E /* Products */;
 			projectDirPath = "";
@@ -297,6 +306,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2D3BBDFD2F1A24DD0060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D3BBDFE2F1A24DD0060596E /* KokuhakuCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KokuhakuCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2D3BBD2D2F18EA160060596E /* Project object */;
 }

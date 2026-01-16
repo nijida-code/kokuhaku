@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2D3BBE032F1A24FB0060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBE022F1A24FB0060596E /* KokuhakuCore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2D3BBCF82F18E9060060596E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -66,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3BBE032F1A24FB0060596E /* KokuhakuCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 				2D3BBCEC2F18E9050060596E /* kokuhaku_macos */,
 				2D3BBCFA2F18E9060060596E /* kokuhaku_macosTests */,
 				2D3BBD042F18E9060060596E /* kokuhaku_macosUITests */,
+				2D3BBE012F1A24FB0060596E /* Frameworks */,
 				2D3BBCEB2F18E9050060596E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +96,13 @@
 				2D3BBD012F18E9060060596E /* kokuhaku_macosUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2D3BBE012F1A24FB0060596E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +171,7 @@
 			);
 			name = kokuhaku_macosUITests;
 			packageProductDependencies = (
+				2D3BBE022F1A24FB0060596E /* KokuhakuCore */,
 			);
 			productName = kokuhaku_macosUITests;
 			productReference = 2D3BBD012F18E9060060596E /* kokuhaku_macosUITests.xctest */;
@@ -195,6 +209,9 @@
 			);
 			mainGroup = 2D3BBCE12F18E9050060596E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2D3BBE002F1A24F10060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2D3BBCEB2F18E9050060596E /* Products */;
 			projectDirPath = "";
@@ -575,6 +592,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2D3BBE002F1A24F10060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D3BBE022F1A24FB0060596E /* KokuhakuCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBE002F1A24F10060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
+			productName = KokuhakuCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2D3BBCE22F18E9050060596E /* Project object */;
 }

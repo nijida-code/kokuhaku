@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D3BBD962F18FD510060596E /* kokuhaku_watchos Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2D3BBD762F18FD500060596E /* kokuhaku_watchos Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2D3BBDFC2F1A24910060596E /* KokuhakuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBDFB2F1A24910060596E /* KokuhakuCore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3BBDFC2F1A24910060596E /* KokuhakuCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +161,7 @@
 				2D3BBD772F18FD500060596E /* kokuhaku_watchos Watch App */,
 				2D3BBD852F18FD510060596E /* kokuhaku_watchos Watch AppTests */,
 				2D3BBD8F2F18FD510060596E /* kokuhaku_watchos Watch AppUITests */,
+				2D3BBDFA2F1A24910060596E /* Frameworks */,
 				2D3BBD492F18EA7F0060596E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -174,6 +177,13 @@
 				2D3BBD8C2F18FD510060596E /* kokuhaku_watchos Watch AppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2D3BBDFA2F1A24910060596E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +208,7 @@
 			);
 			name = kokuhaku_ios;
 			packageProductDependencies = (
+				2D3BBDFB2F1A24910060596E /* KokuhakuCore */,
 			);
 			productName = kokuhaku_ios;
 			productReference = 2D3BBD482F18EA7F0060596E /* kokuhaku_ios.app */;
@@ -360,6 +371,9 @@
 			);
 			mainGroup = 2D3BBD3F2F18EA7F0060596E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2D3BBDF92F1A23340060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2D3BBD492F18EA7F0060596E /* Products */;
 			projectDirPath = "";
@@ -1020,6 +1034,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2D3BBDF92F1A23340060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Shared/KokuhakuCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D3BBDFB2F1A24910060596E /* KokuhakuCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BBDF92F1A23340060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuCore" */;
+			productName = KokuhakuCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2D3BBD402F18EA7F0060596E /* Project object */;
 }

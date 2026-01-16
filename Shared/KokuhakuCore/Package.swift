@@ -1,38 +1,38 @@
-// swift-tools-version: 6.0
+// swift-tools-version: 6.2
 import PackageDescription
 
 let package = Package(
-    name: "Kokuhaku",
-    defaultLocalization: "en",
-    platforms: [
-        .iOS(.v26),
-        .watchOS(.v26),
-        .macOS(.v26)
-    ],
-    products: [
-        // Libraries
-        .library(
-            name: "KokuhakuCore",
-            targets: ["KokuhakuCore"]
-        )
-    ],
-    targets: [
-        // MARK: - Core
-        .target(
-            name: "KokuhakuCore",
-            dependencies: [],
+	name: "KokuhakuCore",
+	defaultLocalization: "en",
+	platforms: [
+		.iOS(.v17),
+		.watchOS(.v10),
+		.macOS(.v14),
+		.tvOS(.v17),
+		.visionOS(.v1)
+	],
+	products: [
+		.library(
+			name: "KokuhakuCore",
+			targets: ["KokuhakuCore"]
+		)
+	],
+	targets: [
+		.target(
+			name: "KokuhakuCore",
+			dependencies: [],
+			path: "Sources",
 			swiftSettings: [
 				.enableExperimentalFeature("StrictConcurrency")
-			],
-			path: "Sources"
-        ),
-        .testTarget(
+			]
+		),
+		.testTarget(
 			name: "KokuhakuCoreTests",
-            dependencies: ["KokuhakuCore"],
+			dependencies: ["KokuhakuCore"],
+			path: "Tests",
 			swiftSettings: [
 				.enableExperimentalFeature("StrictConcurrency")
-			],
-			path: "Tests"
-        ),
+			]
+		),
 	]
 )
