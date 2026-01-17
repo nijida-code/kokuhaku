@@ -19,6 +19,9 @@
 		2D3BBF912F1A77660060596E /* KokuhakuHealthKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBF902F1A77660060596E /* KokuhakuHealthKit */; };
 		2D3BBFA72F1A78910060596E /* KokuhakuAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBFA62F1A78910060596E /* KokuhakuAnalytics */; };
 		2D3BBFCA2F1A7E500060596E /* KokuhakuFlowExecution in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BBFC92F1A7E500060596E /* KokuhakuFlowExecution */; };
+		2D3BC1802F1BAF1B0060596E /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BC17F2F1BAF1B0060596E /* ArgumentParser */; };
+		2D3BC1822F1BAF1B0060596E /* generate-docc-reference in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BC1812F1BAF1B0060596E /* generate-docc-reference */; };
+		2D3BC1842F1BAF1B0060596E /* generate-manual in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3BC1832F1BAF1B0060596E /* generate-manual */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,8 +57,11 @@
 				2D3BBEBC2F1A60C60060596E /* KokuhakuImportLocal in Frameworks */,
 				2D3BBF752F1A70F80060596E /* KokuhakuNotifications in Frameworks */,
 				2D3BBF522F1A6E790060596E /* KokuhakuDeviceSync in Frameworks */,
+				2D3BC1822F1BAF1B0060596E /* generate-docc-reference in Frameworks */,
 				2D3BBFCA2F1A7E500060596E /* KokuhakuFlowExecution in Frameworks */,
 				2D3BBF912F1A77660060596E /* KokuhakuHealthKit in Frameworks */,
+				2D3BC1802F1BAF1B0060596E /* ArgumentParser in Frameworks */,
+				2D3BC1842F1BAF1B0060596E /* generate-manual in Frameworks */,
 				2D3BBEEF2F1A670E0060596E /* KokuhakuImportGitHub in Frameworks */,
 				2D3BBDFF2F1A24DD0060596E /* KokuhakuCore in Frameworks */,
 				2D3BBFA72F1A78910060596E /* KokuhakuAnalytics in Frameworks */,
@@ -124,6 +130,9 @@
 				2D3BBF902F1A77660060596E /* KokuhakuHealthKit */,
 				2D3BBFA62F1A78910060596E /* KokuhakuAnalytics */,
 				2D3BBFC92F1A7E500060596E /* KokuhakuFlowExecution */,
+				2D3BC17F2F1BAF1B0060596E /* ArgumentParser */,
+				2D3BC1812F1BAF1B0060596E /* generate-docc-reference */,
+				2D3BC1832F1BAF1B0060596E /* generate-manual */,
 			);
 			productName = kokuhaku_macos_cli;
 			productReference = 2D3BBD352F18EA160060596E /* kokuhaku_macos_cli */;
@@ -141,6 +150,7 @@
 				TargetAttributes = {
 					2D3BBD342F18EA160060596E = {
 						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
 					};
 				};
 			};
@@ -166,6 +176,7 @@
 				2D3BBF8F2F1A77660060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuHealthKit" */,
 				2D3BBFA52F1A78910060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuAnalytics" */,
 				2D3BBFC82F1A7E500060596E /* XCLocalSwiftPackageReference "../../Shared/KokuhakuFlowExecution" */,
+				2D3BC17E2F1BAF1B0060596E /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2D3BBD362F18EA160060596E /* Products */;
@@ -313,12 +324,14 @@
 		2D3BBD3D2F18EA160060596E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6MJCL4W8J6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 6.0;
 			};
@@ -327,6 +340,7 @@
 		2D3BBD3E2F18EA160060596E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6MJCL4W8J6;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -412,6 +426,17 @@
 		};
 /* End XCLocalSwiftPackageReference section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		2D3BC17E2F1BAF1B0060596E /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		2D3BBDFE2F1A24DD0060596E /* KokuhakuCore */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -460,6 +485,21 @@
 		2D3BBFC92F1A7E500060596E /* KokuhakuFlowExecution */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = KokuhakuFlowExecution;
+		};
+		2D3BC17F2F1BAF1B0060596E /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BC17E2F1BAF1B0060596E /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+		2D3BC1812F1BAF1B0060596E /* generate-docc-reference */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BC17E2F1BAF1B0060596E /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = "generate-docc-reference";
+		};
+		2D3BC1832F1BAF1B0060596E /* generate-manual */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3BC17E2F1BAF1B0060596E /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = "generate-manual";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
