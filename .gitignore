@@ -13,6 +13,13 @@ DerivedData/
 ## Obj-C/Swift specific
 *.hmap
 
+build/
+.tmp/
+.cache/
+codex.log
+*.codex.log
+
+
 ## App packaging
 *.ipa
 *.dSYM.zip
