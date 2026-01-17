@@ -16,9 +16,10 @@ DerivedData/
 build/
 .tmp/
 .cache/
+
 codex.log
 *.codex.log
-
+AGENTS.md
 
 ## App packaging
 *.ipa
