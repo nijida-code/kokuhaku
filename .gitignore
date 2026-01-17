@@ -63,6 +63,8 @@ fastlane/test_output
 
 .vscode/
 .swiftpm/
+.DS_Store
+.DS_Store?
 
 # Could be needed in special cases, but not now and most likely never
 Package.resolved
