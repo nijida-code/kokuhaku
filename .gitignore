@@ -65,6 +65,7 @@ fastlane/test_output
 .swiftpm/
 .DS_Store
 .DS_Store?
+Project.pbxproj
 
 # Could be needed in special cases, but not now and most likely never
 Package.resolved

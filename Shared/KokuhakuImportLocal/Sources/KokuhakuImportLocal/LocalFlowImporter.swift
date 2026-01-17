@@ -20,7 +20,7 @@ public struct LocalFlowImporter: Sendable {
         case .some(.json):
             // Adjust this call to match your actual Core API.
             // If your Core exposes `Parser.parseData(_:) -> Flow`, call that here.
-            return try Parser().parseData(data)
+            return try KokuhakuCore.parseData(data)
 
         case .some(.xml):
             throw LocalImportError.unsupportedFormat("XML import is not implemented yet.")

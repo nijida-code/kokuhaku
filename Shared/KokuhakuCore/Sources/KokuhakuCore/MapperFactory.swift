@@ -1,4 +1,6 @@
-public protocol FlowJSONMapper {
+import Foundation
+
+public protocol FlowJSONMapper: Sendable {
 	/// Versionsstring, den dieser Mapper versteht (z.B. "1", "1.0", "2")
 	static var supportedVersion: String { get }
 

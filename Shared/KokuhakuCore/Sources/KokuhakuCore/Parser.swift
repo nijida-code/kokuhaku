@@ -1,5 +1,9 @@
 import Foundation
 
+private struct VersionCheck: Codable {
+	let version: String
+}
+
 public enum FlowParseError: Error, LocalizedError {
 	case missingOrUnsupportedVersion(String?)
 	case malformedJSON
@@ -16,10 +20,6 @@ public enum FlowParseError: Error, LocalizedError {
 
 public func parseData(_ data: Data) throws -> Flow {
 	let decoder: JSONDecoder = JSONDecoder()
-
-	private struct VersionCheck: Codable {
-		let version: String
-	}
 
 	// 1) Version lesen
 	let header: VersionCheck

@@ -1,3 +1,5 @@
+import Foundation
+
 // private struct FlowDTOv1: Codable {
 // }
 
