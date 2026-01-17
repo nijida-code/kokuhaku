@@ -7,6 +7,9 @@
    <FileRef
       location = "container:LICENSE">
    </FileRef>
+   <FileRef
+      location = "group:AGENTS.md">
+   </FileRef>
    <Group
       location = "group:Apps"
       name = "Apps">

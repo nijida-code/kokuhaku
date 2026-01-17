@@ -82,3 +82,7 @@ fastlane/test_output
 
 # Could be needed in special cases, but not now and most likely never
 Package.resolved
+.env
+.env.*
+.codex/
+.openai/
