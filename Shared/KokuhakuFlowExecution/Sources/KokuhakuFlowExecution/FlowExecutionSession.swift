@@ -159,7 +159,7 @@ public actor FlowExecutionSession {
     /// Builds a run summary if the session has ended.
     public func runSummary() throws -> FlowRunSummary {
         guard let startedAt else { throw FlowExecutionError.notStarted }
-        guard let endedAt, let result else { throw FlowExecutionError.alreadyEnded == false ? FlowExecutionError.alreadyEnded : FlowExecutionError.alreadyEnded }
+        guard let endedAt, let result else { throw FlowExecutionError.notEnded }
         let completed = stepStates.filter { $0 == .completed }.count
 
         return FlowRunSummary(

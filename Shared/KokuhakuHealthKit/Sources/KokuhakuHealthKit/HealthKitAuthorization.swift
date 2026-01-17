@@ -21,14 +21,14 @@ public struct HealthKitAuthorization: Sendable {
         toShare: Set<HKSampleType> = [],
         toRead: Set<HKObjectType> = []
     ) async throws {
-        try await withCheckedThrowingContinuation { cont in
+        try await withCheckedThrowingContinuation { (cont: CheckedContinuation<Void, Error>) in
             store.requestAuthorization(toShare: toShare, read: toRead) { success, error in
                 if let error {
                     cont.resume(throwing: error)
                     return
                 }
                 if success {
-                    cont.resume()
+                    cont.resume(returning: ())
                 } else {
                     cont.resume(throwing: HealthKitError.authorizationDenied)
                 }

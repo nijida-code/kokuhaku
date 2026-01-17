@@ -5,6 +5,7 @@ public enum FlowExecutionError: Error, Sendable, LocalizedError, Hashable {
     case invalidStepIndex(Int)
     case alreadyEnded
     case notStarted
+    case notEnded
 
     public var errorDescription: String? {
         switch self {
@@ -14,6 +15,8 @@ public enum FlowExecutionError: Error, Sendable, LocalizedError, Hashable {
             return "The execution session has already ended."
         case .notStarted:
             return "The execution session has not started."
+        case .notEnded:
+            return "The execution session has not ended yet."
         }
     }
 }

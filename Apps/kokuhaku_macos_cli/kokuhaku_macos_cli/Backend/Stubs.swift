@@ -6,7 +6,7 @@ import Foundation
 ///
 /// This is only intended to make the CLI runnable during early scaffolding.
 /// Replace with your real storage implementation (likely in KokuhakuCore).
-public final class FileFlowRepository: FlowRepository {
+public final class FileFlowRepository: FlowRepository, @unchecked Sendable {
     private let storageDir: URL
     private let fileManager: FileManager
 
@@ -114,7 +114,7 @@ public final class FileFlowRepository: FlowRepository {
 /// A stub catalog provider.
 ///
 /// "local" source reads JSON files from a directory; "github" is TODO.
-public final class StubCatalogProvider: CatalogProvider {
+public final class StubCatalogProvider: CatalogProvider, @unchecked Sendable {
     private let localCatalogDir: URL
     private let fileManager: FileManager
 

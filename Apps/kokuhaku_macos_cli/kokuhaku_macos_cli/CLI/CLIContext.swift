@@ -24,8 +24,8 @@ public struct CLIContext: Sendable {
 ///
 /// Replace this with swift-log later if desired.
 public enum Logger {
-    public static var isVerbose: Bool = false
-    public static var isQuiet: Bool = false
+    public nonisolated(unsafe) static var isVerbose: Bool = false
+    public nonisolated(unsafe) static var isQuiet: Bool = false
 
     public static func info(_ message: String) {
         guard !isQuiet else { return }
