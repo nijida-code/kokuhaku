@@ -41,7 +41,7 @@ public struct Repeat: Codable {
 public struct Escalation: Codable {
 	public let factor: Float
 	private let _function: Function?
-	public let function: Function = _function ?? .linear
+	public var function: Function { _function ?? .linear }
 
 	private enum CodingKeys: String, CodingKey {
 		case factor
