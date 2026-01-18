@@ -7,17 +7,25 @@
 
 import SwiftUI
 import RealityKit
-import RealityKitContent
+#if os(xros)
+    // Only compile this block when building for visionOS 26 or newer
+    import RealityKitContent
+#endif
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
+            #if os(xros)
+                Model3D(named: "Scene", bundle: realityKitContentBundle)
+                    .padding(.bottom, 50)
+            #else
+                Text("3D content requires visionOS 26.0")
+                    .padding(.bottom, 50)
+                Text("RealityKitContent not available on this OS")
+                    .padding(.bottom, 50)
+            #endif
             Text("Hello, world!")
-        }
-        .padding()
+        }.padding()
     }
 }
 
